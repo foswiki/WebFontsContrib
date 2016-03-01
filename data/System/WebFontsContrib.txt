@@ -1,0 +1,58 @@
+%META:TOPICINFO{author="ProjectContributor" comment="" date="1437761267" format="1.1" version="1"}%
+---+!! %TOPIC%
+%FORMFIELD{"Description"}%
+
+%TOC%
+
+This is a bundle of commonly used free web-fonts to be used in your Foswiki skin. 
+Each font comes with a handy font-face definition that you may add to your own css. They are located in
+
+<verbatim>
+pub/System/WebFontsContrib/<font-family>/font-face.css
+</verbatim>
+
+For instance, given your =styles.css= 
+is located in =pub/System/MyThemeContrib/styles.css=, then adding this will make the "Roboto" available
+in your design
+
+<verbatim class="css">
+@import url(../WebFontsContrib/roboto/font-face.css);
+</verbatim>
+
+Depending on the font different styles and weights are defined in the font-face file.
+
+| *Font Family* | *Weights* | *Styles* |
+| Droid Sans | normal, bold | normal | 
+| Droid Serif | normal, bold | normal, italic |
+| Lato | 100, 200, 300, 500, 600, 800, 900, bold, normal | normal, italic | 
+| Open Sans | 300, 600, 800, bold, normal | normal, italic | 
+| Oswald | 300, normal, bold | normal |
+| Oswald Stencil | normal | normal |
+| Roboto | 100, 300, 400, 500, 700, 900, bold, normal | normal, italic |
+| Roboto Mono | 100, 300, 400, 500, 700 | normal, italic | 
+| Source Sans Pro | 200, 300, 400, 600, 700, 900 | normal, italic |
+
+---++ Installation Instructions
+%$INSTALL_INSTRUCTIONS%
+
+Note that copyrights apply to each font individually. 
+
+---++ Dependencies
+%$DEPENDENCIES%
+
+---++ Change History
+
+%TABLE{columnwidths="7em" tablewidth="100%"}%
+| 01 Mar 2016 | initial release |
+| 16 Sep 2015 | creation |
+
+%META:FORM{name="PackageForm"}%
+%META:FIELD{name="Author" title="Author" value="Michael Daum"}%
+%META:FIELD{name="Copyright" title="Copyright" value="2016 Michael Daum http://michaeldaumconsulting.com"}%
+%META:FIELD{name="Description" title="Description" value="%25$SHORTDESCRIPTION%25"}%
+%META:FIELD{name="Home" title="Home" value="http://foswiki.org/Extensions/%$ROOTMODULE%"}%
+%META:FIELD{name="License" title="License" value="GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]])"}%
+%META:FIELD{name="Release" title="Release" value="%$RELEASE%"}%
+%META:FIELD{name="Repository" title="Repository" value="https://github.com/foswiki/%$ROOTMODULE%"}%
+%META:FIELD{name="Support" title="Support" value="http://foswiki.org/Support/%$ROOTMODULE%"}%
+%META:FIELD{name="Version" title="Version" value="%$VERSION%"}%
