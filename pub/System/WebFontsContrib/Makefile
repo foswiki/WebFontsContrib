@@ -8,6 +8,7 @@ SUBDIRS=\
   roboto \
   roboto-mono \
   source-sans-pro \
+  material-icons 
 
-include $(FOSWIKI_ROOT)/pub/System/NatSkin/Makefile.include
+-include $(FOSWIKI_ROOT)/pub/System/JQueryPlugin/Makefile.include
 

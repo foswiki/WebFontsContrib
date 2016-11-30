@@ -20,8 +20,8 @@ use warnings;
 
 use Foswiki::Func ();
 
-our $VERSION = '1.00';
-our $RELEASE = '01 Mar 2016';
+our $VERSION = '2.00';
+our $RELEASE = '30 Nov 2016';
 our $SHORTDESCRIPTION = 'Web fonts for Foswiki skins';
 our $NO_PREFS_IN_TOPIC = 1;
 

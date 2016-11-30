@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="ProjectContributor" comment="" date="1437761267" format="1.1" version="1"}%
+%META:TOPICINFO{author="micha" comment="" date="1466579931" format="1.1" version="2"}%
 ---+!! %TOPIC%
 %FORMFIELD{"Description"}%
 
@@ -25,6 +25,7 @@ Depending on the font different styles and weights are defined in the font-face 
 | Droid Sans | normal, bold | normal | 
 | Droid Serif | normal, bold | normal, italic |
 | Lato | 100, 200, 300, 500, 600, 800, 900, bold, normal | normal, italic | 
+| Material Icons | 400 | normal | 
 | Open Sans | 300, 600, 800, bold, normal | normal, italic | 
 | Oswald | 300, normal, bold | normal |
 | Oswald Stencil | normal | normal |
@@ -43,16 +44,17 @@ Note that copyrights apply to each font individually.
 ---++ Change History
 
 %TABLE{columnwidths="7em" tablewidth="100%"}%
+| 22 Jun 2016 | added material icons |
 | 01 Mar 2016 | initial release |
 | 16 Sep 2015 | creation |
 
 %META:FORM{name="PackageForm"}%
 %META:FIELD{name="Author" title="Author" value="Michael Daum"}%
-%META:FIELD{name="Copyright" title="Copyright" value="2016 Michael Daum http://michaeldaumconsulting.com"}%
+%META:FIELD{name="Version" title="Version" value="%25$VERSION%25"}%
+%META:FIELD{name="Release" title="Release" value="%25$RELEASE%25"}%
 %META:FIELD{name="Description" title="Description" value="%25$SHORTDESCRIPTION%25"}%
-%META:FIELD{name="Home" title="Home" value="http://foswiki.org/Extensions/%$ROOTMODULE%"}%
+%META:FIELD{name="Repository" title="Repository" value="https://github.com/foswiki/%25$ROOTMODULE%25"}%
+%META:FIELD{name="Copyright" title="Copyright" value="2016 Michael Daum http://michaeldaumconsulting.com"}%
 %META:FIELD{name="License" title="License" value="GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]])"}%
-%META:FIELD{name="Release" title="Release" value="%$RELEASE%"}%
-%META:FIELD{name="Repository" title="Repository" value="https://github.com/foswiki/%$ROOTMODULE%"}%
-%META:FIELD{name="Support" title="Support" value="http://foswiki.org/Support/%$ROOTMODULE%"}%
-%META:FIELD{name="Version" title="Version" value="%$VERSION%"}%
+%META:FIELD{name="Home" title="Home" value="https://foswiki.org/Extensions/%25$ROOTMODULE%25"}%
+%META:FIELD{name="Support" title="Support" value="https://foswiki.org/Support/%25$ROOTMODULE%25"}%

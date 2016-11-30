@@ -1,9 +1,11 @@
 *.gz
 *,v
 font-face.css
-WebFontsContrib_installer
-WebFontsContrib_installer.pl
-WebFontsContrib.md5
-WebFontsContrib.sha1
-WebFontsContrib.tgz
-WebFontsContrib.zip
+/WebFontsContrib_installer
+/WebFontsContrib_installer.pl
+/WebFontsContrib.md5
+/WebFontsContrib.sha1
+/WebFontsContrib.tgz
+/WebFontsContrib.zip
+/WebFontsContrib.txt
+git

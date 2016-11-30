@@ -1,0 +1,210 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+my $iconFile = "./git/iconfont/codepoints";
+
+open(my $fh, '<:encoding(UTF-8)', $iconFile)
+  or die "Could not open file '$iconFile' $!";
+ 
+print do {local $/;<DATA>};
+while (my $row = <$fh>) {
+  chomp $row;
+  my $name;
+  my $codepoint;
+  if ($row =~ /^\s*(.*?)\s+(.*?)\s*$/) {
+    $name = $1;
+    $codepoint = $2
+  } else {
+    print STDERR "IGNORING $row\n";
+    next;
+  }
+
+  $name =~ s/_/-/g;
+  print ".ma-$name:before { content: \"\\$codepoint\"; }\n";
+}
+
+__DATA__
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(MaterialIcons-Regular.woff2) format('woff2'),
+       url(MaterialIcons-Regular.woff) format('woff'),
+       url(MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons, .ma {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 120%;
+  display: inline-block;
+  line-height: 1;
+  vertical-align:text-bottom;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+.ma-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.ma-2x {
+  font-size: 2em;
+}
+.ma-3x {
+  font-size: 3em;
+}
+.ma-4x {
+  font-size: 4em;
+}
+.ma-5x {
+  font-size: 5em;
+}
+.ma-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.ma-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.ma-ul > li {
+  position: relative;
+}
+.ma-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.ma-li.ma-lg {
+  left: -1.85714286em;
+}
+.ma-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+.ma-pull-left {
+  float: left;
+}
+.ma-pull-right {
+  float: right;
+}
+.ma.ma-pull-left {
+  margin-right: .3em;
+}
+.ma.ma-pull-right {
+  margin-left: .3em;
+}
+.ma-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+.ma-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.ma-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.ma-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.ma-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.ma-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.ma-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+:root .ma-rotate-90,
+:root .ma-rotate-180,
+:root .ma-rotate-270,
+:root .ma-flip-horizontal,
+:root .ma-flip-vertical {
+  filter: none;
+}
+.ma-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.ma-stack-1x,
+.ma-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.ma-stack-1x {
+  line-height: inherit;
+}
+.ma-stack-2x {
+  font-size: 2em;
+}
+.ma-inverse {
+  color: #ffffff;
+}
