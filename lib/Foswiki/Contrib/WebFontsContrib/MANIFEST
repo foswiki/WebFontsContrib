@@ -1,3 +1,4 @@
+data/System/MaterialIcons.txt 0644
 data/System/WebFontsContrib.txt 0644
 lib/Foswiki/Contrib/WebFontsContrib/DEPENDENCIES 0644
 lib/Foswiki/Contrib/WebFontsContrib.pm 0644
@@ -101,6 +102,8 @@ pub/System/WebFontsContrib/Makefile 0644
 pub/System/WebFontsContrib/material-icons/font-face.css 0644
 pub/System/WebFontsContrib/material-icons/font-face.css.gz 0644
 pub/System/WebFontsContrib/material-icons/font-face.uncompressed.css 0644
+pub/System/WebFontsContrib/material-icons/generate-css 0644
+pub/System/WebFontsContrib/material-icons/generate-overview 0644
 pub/System/WebFontsContrib/material-icons/Makefile 0644
 pub/System/WebFontsContrib/material-icons/MaterialIcons-Regular.eot 0644
 pub/System/WebFontsContrib/material-icons/MaterialIcons-Regular.ttf 0644

@@ -33,6 +33,8 @@ Depending on the font different styles and weights are defined in the font-face 
 | Roboto Mono | 100, 300, 400, 500, 700 | normal, italic | 
 | Source Sans Pro | 200, 300, 400, 600, 700, 900 | normal, italic |
 
+See the list of all [[%SYSTEMWEB%.MaterialIcons][MaterialIcons]]
+
 ---++ Installation Instructions
 %$INSTALL_INSTRUCTIONS%
 
@@ -44,7 +46,7 @@ Note that copyrights apply to each font individually.
 ---++ Change History
 
 %TABLE{columnwidths="7em" tablewidth="100%"}%
-| 22 Jun 2016 | added material icons |
+| 30 Nov 2016 | added material icons |
 | 01 Mar 2016 | initial release |
 | 16 Sep 2015 | creation |
 
