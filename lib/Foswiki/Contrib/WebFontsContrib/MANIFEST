@@ -1,7 +1,10 @@
+!noci
 data/System/MaterialIcons.txt 0644
 data/System/WebFontsContrib.txt 0644
 lib/Foswiki/Contrib/WebFontsContrib/DEPENDENCIES 0644
 lib/Foswiki/Contrib/WebFontsContrib.pm 0644
+pub/System/MaterialIcons/script.js 0644
+pub/System/MaterialIcons/style.css 0644
 pub/System/WebFontsContrib/droid-sans/DroidSans-Bold-demo.html 0644
 pub/System/WebFontsContrib/droid-sans/DroidSans-Bold-webfont.eot 0644
 pub/System/WebFontsContrib/droid-sans/DroidSans-Bold-webfont.svg 0644
