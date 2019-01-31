@@ -1,0 +1,43 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+use JSON ();
+
+my $iconFile = "./git/iconfont/codepoints";
+
+open(my $fh, '<:encoding(UTF-8)', $iconFile)
+  or die "Could not open file '$iconFile' $!";
+ 
+my $result = {
+  "icons" => [],
+};
+
+while (my $row = <$fh>) {
+  chomp $row;
+
+  my $id;
+  my $name;
+  my $codepoint;
+
+  if ($row =~ /^\s*(.*?)\s+(.*?)\s*$/) {
+    $id = $1;
+    $codepoint = $2;
+
+    $id =~ s/_/-/g;
+    $name = $id;
+    $name =~ s/-/ /g;
+    $name =~ s/\b(\w)/uc($1)/ge;
+
+    push @{$result->{icons}}, {
+      "id" => $id,
+      "name" => $name,
+      "unicode" => $codepoint,
+    };
+  } else {
+    print STDERR "IGNORING $row\n";
+    next;
+  }
+}
+
+print JSON::to_json($result, { pretty => 1});

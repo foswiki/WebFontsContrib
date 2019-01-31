@@ -11,12 +11,9 @@
   text-decoration:none;
 }
 .entry i {
-  text-align:right;
-  vertical-align:middle;
   -webkit-transition: font-size 250ms;
   transition: font-size 250ms;
   margin:0 14px 0 5px;
-  line-height:30px;
 }
 .entry:hover i {
   font-size:28px;

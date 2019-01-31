@@ -1,6 +1,7 @@
 !noci
 data/System/MaterialIcons.txt 0644
 data/System/WebFontsContrib.txt 0644
+lib/Foswiki/Contrib/WebFontsContrib/Config.spec 0644
 lib/Foswiki/Contrib/WebFontsContrib/DEPENDENCIES 0644
 lib/Foswiki/Contrib/WebFontsContrib.pm 0644
 pub/System/MaterialIcons/script.js 0644
@@ -106,12 +107,14 @@ pub/System/WebFontsContrib/material-icons/font-face.css 0644
 pub/System/WebFontsContrib/material-icons/font-face.css.gz 0644
 pub/System/WebFontsContrib/material-icons/font-face.uncompressed.css 0644
 pub/System/WebFontsContrib/material-icons/generate-css 0644
+pub/System/WebFontsContrib/material-icons/generate-json 0644
 pub/System/WebFontsContrib/material-icons/generate-overview 0644
 pub/System/WebFontsContrib/material-icons/Makefile 0644
 pub/System/WebFontsContrib/material-icons/MaterialIcons-Regular.eot 0644
 pub/System/WebFontsContrib/material-icons/MaterialIcons-Regular.ttf 0644
 pub/System/WebFontsContrib/material-icons/MaterialIcons-Regular.woff 0644
 pub/System/WebFontsContrib/material-icons/MaterialIcons-Regular.woff2 0644
+pub/System/WebFontsContrib/material-icons/material.json 0644
 pub/System/WebFontsContrib/open-sans/font-face.css 0644
 pub/System/WebFontsContrib/open-sans/font-face.css.gz 0644
 pub/System/WebFontsContrib/open-sans/font-face.uncompressed.css 0644
@@ -246,6 +249,18 @@ pub/System/WebFontsContrib/roboto-mono/fonts/RobotoMono-Regular.ttf 0644
 pub/System/WebFontsContrib/roboto-mono/fonts/RobotoMono-ThinItalic.ttf 0644
 pub/System/WebFontsContrib/roboto-mono/fonts/RobotoMono-Thin.ttf 0644
 pub/System/WebFontsContrib/roboto-mono/Makefile 0644
+pub/System/WebFontsContrib/source-code-pro/font-face.css 0644
+pub/System/WebFontsContrib/source-code-pro/font-face.css.gz 0644
+pub/System/WebFontsContrib/source-code-pro/font-face.uncompressed.css 0644
+pub/System/WebFontsContrib/source-code-pro/Makefile 0644
+pub/System/WebFontsContrib/source-code-pro/OFL.txt 0644
+pub/System/WebFontsContrib/source-code-pro/SourceCodePro-Black.ttf 0644
+pub/System/WebFontsContrib/source-code-pro/SourceCodePro-Bold.ttf 0644
+pub/System/WebFontsContrib/source-code-pro/SourceCodePro-ExtraLight.ttf 0644
+pub/System/WebFontsContrib/source-code-pro/SourceCodePro-Light.ttf 0644
+pub/System/WebFontsContrib/source-code-pro/SourceCodePro-Medium.ttf 0644
+pub/System/WebFontsContrib/source-code-pro/SourceCodePro-Regular.ttf 0644
+pub/System/WebFontsContrib/source-code-pro/SourceCodePro-Semibold.ttf 0644
 pub/System/WebFontsContrib/source-sans-pro/font-face.css 0644
 pub/System/WebFontsContrib/source-sans-pro/font-face.css.gz 0644
 pub/System/WebFontsContrib/source-sans-pro/font-face.uncompressed.css 0644
@@ -310,3 +325,7 @@ pub/System/WebFontsContrib/source-sans-pro/SourceSansPro-Semibold.otf 0644
 pub/System/WebFontsContrib/source-sans-pro/SourceSansPro-Semibold.otf.woff 0644
 pub/System/WebFontsContrib/source-sans-pro/SourceSansPro-Semibold.ttf 0644
 pub/System/WebFontsContrib/source-sans-pro/SourceSansPro-Semibold.ttf.woff 0644
+pub/System/WebFontsContrib/source-serif-pro/OFL.txt 0644
+pub/System/WebFontsContrib/source-serif-pro/SourceSerifPro-Bold.ttf 0644
+pub/System/WebFontsContrib/source-serif-pro/SourceSerifPro-Regular.ttf 0644
+pub/System/WebFontsContrib/source-serif-pro/SourceSerifPro-Semibold.ttf 0644

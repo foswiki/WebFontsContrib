@@ -1,5 +1,5 @@
 FOSWIKI_ROOT?=~/foswiki/core
-TARGET=font-face.css
+TARGET=font-face.css material.json
 
 FONT_SOURCE=\
   MaterialIcons-Regular.eot \
@@ -15,6 +15,10 @@ git:
 fonts: $(FONT_SOURCE)
 
 ifneq (,$(wildcard git))
+material.json: generate-json git/iconfont/codepoints
+	@echo "generating $@"
+	@./generate-json > $@
+
 font-face.uncompressed.css: generate-css git/iconfont/codepoints
 	@echo "generating $@"
 	@./generate-css > $@
