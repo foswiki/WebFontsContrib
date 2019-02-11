@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="ProjectContributor" comment="" date="1548935217" format="1.1" version="1"}%
+%META:TOPICINFO{author="ProjectContributor" comment="" date="1549872279" format="1.1" version="1"}%
 ---+!! %TOPIC%
 %FORMFIELD{"Description"}%
 
@@ -47,6 +47,7 @@ Note that copyrights apply to each font individually.
 ---++ Change History
 
 %TABLE{columnwidths="7em" tablewidth="100%"}%
+|  11 Feb 2019 | fixed syntax error in =Config.spec= file |
 |  31 Jan 2019 | added Source Code Pro and Source Sans Pro fonts; added compatibility with latest !JQueryPlugin |
 |  18 Sep 2017 | added missing css and js |
 |  30 Nov 2016 | added material icons |
