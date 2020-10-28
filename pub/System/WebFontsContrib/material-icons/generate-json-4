@@ -1,0 +1,50 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+use JSON;
+
+my $iconFile = "./json.txt";
+
+sub readFile {
+  my $name = shift;
+
+  my $data = '';
+  my $IN_FILE;
+
+  open($IN_FILE, '<', $name) || return;
+  binmode $IN_FILE, ':encoding(utf-8)';
+  
+  local $/ = undef;
+  $data = <$IN_FILE>;
+  close($IN_FILE);
+  $data = '' unless $data;
+
+  return decode_json($data);
+}
+
+my $json = readFile($iconFile);
+ 
+my $result = {
+  "icons" => [],
+};
+
+foreach my $icon (sort {$a->{name} cmp $b->{name}} @{$json->{icons}}) {
+  my $id;
+  my $name;
+  my $codepoint;
+
+  $id = $icon->{name};
+  $name = $id;
+  $name =~ s/_/ /g;
+  $name =~ s/\b(\w)/uc($1)/ge;
+
+  push @{$result->{icons}}, {
+    "id" => $id,
+    "name" => $name,
+    "categories" => $icon->{categories},
+    #"unicode" => $codepoint,
+  };
+}
+
+print to_json($result, { pretty => 1});

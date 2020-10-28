@@ -2,7 +2,6 @@
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url(MaterialIcons-Regular.eot); /* For IE6-8 */
   src: local('Material Icons'),
        local('MaterialIcons-Regular'),
        url(MaterialIcons-Regular.woff2) format('woff2'),
@@ -14,8 +13,10 @@
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
+  font-size: 120%;
   display: inline-block;
-  vertical-align:middle;
+  line-height: 1;
+  vertical-align:text-bottom;
   text-transform: none;
   letter-spacing: normal;
   word-wrap: normal;

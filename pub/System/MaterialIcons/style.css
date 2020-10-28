@@ -11,10 +11,6 @@
   text-decoration:none;
 }
 .entry i {
-  -webkit-transition: font-size 250ms;
-  transition: font-size 250ms;
   margin:0 14px 0 5px;
-}
-.entry:hover i {
-  font-size:28px;
+  font-size:24px;
 }

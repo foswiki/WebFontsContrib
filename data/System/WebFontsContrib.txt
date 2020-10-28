@@ -47,6 +47,7 @@ Note that copyrights apply to each font individually.
 ---++ Change History
 
 %TABLE{columnwidths="7em" tablewidth="100%"}%
+|  28 Oct 2020 | package compressed font files as well now |
 |  11 Feb 2019 | fixed syntax error in =Config.spec= file |
 |  31 Jan 2019 | added Source Code Pro and Source Sans Pro fonts; added compatibility with latest !JQueryPlugin |
 |  18 Sep 2017 | added missing css and js |
@@ -60,7 +61,7 @@ Note that copyrights apply to each font individually.
 %META:FIELD{name="Release" title="Release" value="%25$RELEASE%25"}%
 %META:FIELD{name="Description" title="Description" value="%25$SHORTDESCRIPTION%25"}%
 %META:FIELD{name="Repository" title="Repository" value="https://github.com/foswiki/%25$ROOTMODULE%25"}%
-%META:FIELD{name="Copyright" title="Copyright" value="2015-2019 Michael Daum http://michaeldaumconsulting.com"}%
+%META:FIELD{name="Copyright" title="Copyright" value="2015-2020 Michael Daum"}%
 %META:FIELD{name="License" title="License" value="GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]])"}%
 %META:FIELD{name="Home" title="Home" value="https://foswiki.org/Extensions/%25$ROOTMODULE%25"}%
 %META:FIELD{name="Support" title="Support" value="https://foswiki.org/Support/%25$ROOTMODULE%25"}%
