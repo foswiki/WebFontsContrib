@@ -19,7 +19,7 @@ jQuery(function($) {
    $(".filterIcons:not(.filterIconsInited").livequery(function() {
       var $input = $(this);
       $input.addClass("filterIconsInited");
-      $input.on("keyup", function() {
+      $input.on("keyup search", function() {
          if (typeof(timer) !== 'undefined') {
             //console.log("clearing timeout");
             window.clearTimeout(timer);

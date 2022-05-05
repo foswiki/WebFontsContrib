@@ -1,160 +1,126 @@
-/* latin-ext */
+/* source-code-pro-200 - latin */
 @font-face {
   font-family: 'Source Code Pro';
+  font-display: swap;
   font-style: normal;
   font-weight: 200;
-  src: local('Source Code Pro ExtraLight'), local('SourceCodePro-ExtraLight'), url(https://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqZCDkYQxybH_Rl7Qv7ee2N4.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+  src: url('source-code-pro-v13-latin-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('source-code-pro-v13-latin-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* latin */
+/* source-code-pro-300 - latin */
 @font-face {
   font-family: 'Source Code Pro';
+  font-display: swap;
   font-style: normal;
+  font-weight: 300;
+  src: url('source-code-pro-v13-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('source-code-pro-v13-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* source-code-pro-200italic - latin */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-display: swap;
+  font-style: italic;
   font-weight: 200;
-  src: local('Source Code Pro ExtraLight'), local('SourceCodePro-ExtraLight'), url(https://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqSVh0V6fR69OLaFLklYbiSk.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  src: url('source-code-pro-v13-latin-200italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('source-code-pro-v13-latin-200italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* latin-ext */
+/* source-code-pro-300italic - latin */
 @font-face {
   font-family: 'Source Code Pro';
-  font-style: normal;
+  font-display: swap;
+  font-style: italic;
   font-weight: 300;
-  src: local('Source Code Pro Light'), local('SourceCodePro-Light'), url(https://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqTRVvBvQIc1z78c__uoBcyI.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+  src: url('source-code-pro-v13-latin-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('source-code-pro-v13-latin-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* latin */
+/* source-code-pro-italic - latin */
 @font-face {
   font-family: 'Source Code Pro';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Source Code Pro Light'), local('SourceCodePro-Light'), url(https://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqeode0-EuMkY--TSyExeINg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Source Code Pro';
-  font-style: normal;
+  font-display: swap;
+  font-style: italic;
   font-weight: 400;
-  src: local('Source Code Pro'), local('SourceCodePro-Regular'), url(https://fonts.gstatic.com/s/sourcecodepro/v6/mrl8jkM18OlOQN8JLgasDy2Q8seG17bfDXYR_jUsrzg.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+  src: url('source-code-pro-v13-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('source-code-pro-v13-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* latin */
+/* source-code-pro-500 - latin */
 @font-face {
   font-family: 'Source Code Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Source Code Pro'), local('SourceCodePro-Regular'), url(https://fonts.gstatic.com/s/sourcecodepro/v6/mrl8jkM18OlOQN8JLgasD9V_2ngZ8dMf8fLgjYEouxg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Source Code Pro';
+  font-display: swap;
   font-style: normal;
   font-weight: 500;
-  src: local('Source Code Pro Medium'), local('SourceCodePro-Medium'), url(https://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqWPwYXaUNREbAUyQ5RuiVI0.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+  src: url('source-code-pro-v13-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('source-code-pro-v13-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* latin */
+/* source-code-pro-regular - latin */
 @font-face {
   font-family: 'Source Code Pro';
+  font-display: swap;
   font-style: normal;
+  font-weight: 400;
+  src: url('source-code-pro-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('source-code-pro-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* source-code-pro-500italic - latin */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-display: swap;
+  font-style: italic;
   font-weight: 500;
-  src: local('Source Code Pro Medium'), local('SourceCodePro-Medium'), url(https://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqUHj7CJK1I4bLnYZkMY-kd4.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  src: url('source-code-pro-v13-latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('source-code-pro-v13-latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* latin-ext */
+/* source-code-pro-600italic - latin */
 @font-face {
   font-family: 'Source Code Pro';
-  font-style: normal;
+  font-display: swap;
+  font-style: italic;
   font-weight: 600;
-  src: local('Source Code Pro Semibold'), local('SourceCodePro-Semibold'), url(https://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqVKFh1TDTPrUZWzVp6FtpG8.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+  src: url('source-code-pro-v13-latin-600italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('source-code-pro-v13-latin-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* latin */
+/* source-code-pro-700 - latin */
 @font-face {
   font-family: 'Source Code Pro';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Source Code Pro Semibold'), local('SourceCodePro-Semibold'), url(https://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqSOFnW3Jk0f09zW_Yln67Ac.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Source Code Pro';
+  font-display: swap;
   font-style: normal;
   font-weight: 700;
-  src: local('Source Code Pro Bold'), local('SourceCodePro-Bold'), url(https://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqVxe-GPfKKFmiXaJ_Q0GFr8.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+  src: url('source-code-pro-v13-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('source-code-pro-v13-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* latin */
+/* source-code-pro-600 - latin */
 @font-face {
   font-family: 'Source Code Pro';
+  font-display: swap;
   font-style: normal;
-  font-weight: 700;
-  src: local('Source Code Pro Bold'), local('SourceCodePro-Bold'), url(https://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqUo0As1BFRXtCDhS66znb_k.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  font-weight: 600;
+  src: url('source-code-pro-v13-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('source-code-pro-v13-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* latin-ext */
+/* source-code-pro-700italic - latin */
 @font-face {
   font-family: 'Source Code Pro';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 700;
+  src: url('source-code-pro-v13-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('source-code-pro-v13-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* source-code-pro-900 - latin */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-display: swap;
   font-style: normal;
   font-weight: 900;
-  src: local('Source Code Pro Black'), local('SourceCodePro-Black'), url(https://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqUfh7q1GW6w7vv_rRnRqMrY.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+  src: url('source-code-pro-v13-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('source-code-pro-v13-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* latin */
+/* source-code-pro-900italic - latin */
 @font-face {
   font-family: 'Source Code Pro';
-  font-style: normal;
+  font-display: swap;
+  font-style: italic;
   font-weight: 900;
-  src: local('Source Code Pro Black'), local('SourceCodePro-Black'), url(https://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqXZhYM0_6AejPZE-OqA592o.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Source Serif Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Source Serif Pro'), local('SourceSerifPro-Regular'), url(https://fonts.gstatic.com/s/sourceserifpro/v4/CeUM4np2c42DV49nanp55Q_BUM40eMa9-jBVStC9wY0.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Source Serif Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Source Serif Pro'), local('SourceSerifPro-Regular'), url(https://fonts.gstatic.com/s/sourceserifpro/v4/CeUM4np2c42DV49nanp55fETq2ZMMnErnN6OL83eMrU.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Source Serif Pro';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Source Serif Pro Semibold'), local('SourceSerifPro-Semibold'), url(https://fonts.gstatic.com/s/sourceserifpro/v4/yd5lDMt8Sva2PE17yiLarAl-A0t8gyWFja7FYKBCCG0.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Source Serif Pro';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Source Serif Pro Semibold'), local('SourceSerifPro-Semibold'), url(https://fonts.gstatic.com/s/sourceserifpro/v4/yd5lDMt8Sva2PE17yiLarEx5mkwPDa2CKboOHRYrmUg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Source Serif Pro';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Source Serif Pro Bold'), local('SourceSerifPro-Bold'), url(https://fonts.gstatic.com/s/sourceserifpro/v4/yd5lDMt8Sva2PE17yiLarKwVIEQt96q_HGoOJQzfwxw.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Source Serif Pro';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Source Serif Pro Bold'), local('SourceSerifPro-Bold'), url(https://fonts.gstatic.com/s/sourceserifpro/v4/yd5lDMt8Sva2PE17yiLarPgHLTi6vdOOFgNDwEC6JgI.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  src: url('source-code-pro-v13-latin-900italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('source-code-pro-v13-latin-900italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }

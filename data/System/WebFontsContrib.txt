@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="ProjectContributor" comment="" date="1549872279" format="1.1" version="1"}%
+%META:TOPICINFO{author="ProjectContributor" comment="reprev" date="1616748570" format="1.1" version="1"}%
 ---+!! %TOPIC%
 %FORMFIELD{"Description"}%
 
@@ -22,19 +22,28 @@ in your design
 Depending on the font different styles and weights are defined in the font-face file.
 
 | *Font Family* | *Weights* | *Styles* |
+| DM Serif Display | 400 | normal |
+| DM Sans | 400, 500, 700 | normal, italic |
 | Droid Sans | normal, bold | normal | 
 | Droid Serif | normal, bold | normal, italic |
-| Lato | 100, 200, 300, 500, 600, 800, 900, bold, normal | normal, italic | 
+| Lato | 100, 300, 400, 700, 900 | normal, italic | 
 | Material Icons | 400 | normal | 
-| Open Sans | 300, 600, 800, bold, normal | normal, italic | 
-| Oswald | 300, normal, bold | normal |
-| Oswald Stencil | normal | normal |
-| Roboto | 100, 300, 400, 500, 700, 900, bold, normal | normal, italic |
-| Roboto Mono | 100, 300, 400, 500, 700 | normal, italic | 
-| Source Code Pro | 200, 300, 400, 600, 700, 900 | normal, italic |
+| Montserrat | 100, 200, 300, 400, 500, 600, 700, 800, 900 | normal, italic |
+| Open Sans | 300, 400, 600, 700, 800 | normal, italic | 
+| Open Sans Condensed | 300, 600, 700 | normal, italic | 
+| Oswald | 200, 300, 400, 500, 600, 700 | normal |
+| Overpass | 100, 200, 300, 400, 600, 700, 800, 900 | normal, italic |
+| Poppins | 100, 200, 300, 400, 500, 600, 700, 800, 900 | normal, italic |
+| Roboto | 100, 300, 400, 500, 700, 900 | normal, italic |
+| Roboto Condensed | 300, 400, 700 | normal, italic | 
+| Roboto Mono | 100, 200, 300, 400, 500, 600, 700 | normal, italic | 
+| Source Code Pro | 200, 300, 400, 500, 600, 700, 900 | normal, italic |
 | Source Sans Pro | 200, 300, 400, 600, 700, 900 | normal, italic |
+| Source Serif Pro | 200, 300, 400, 600, 700, 900 | normal, italic |
+| Titillium Web | 200, 300, 400, 600, 700, 900 | normal, italic |
+| Work Sans | 100, 200, 300, 400, 500, 600, 700, 800, 900 | normal, italic |
 
-See the list of all [[%SYSTEMWEB%.MaterialIcons][MaterialIcons]]
+See the list of all [[%SYSTEMWEB%.MaterialIcons][Material Icons]]
 
 ---++ Installation Instructions
 %$INSTALL_INSTRUCTIONS%
@@ -47,6 +56,12 @@ Note that copyrights apply to each font individually.
 ---++ Change History
 
 %TABLE{columnwidths="7em" tablewidth="100%"}%
+|  05 May 2022 | new major release |
+|  26 Mar 2021 | added =font-display:swap= to all font faces; \
+                 separated Open Sans Condensed from Open Sans; \
+                 added DM Sans |
+|  25 Mar 2021 | added Poppins, Montserrat, Work Sans, Overpass, Titillium Web, DM Serif Display |
+|  30 Nov 2020 | only support woff and woff2 fonts now |
 |  28 Oct 2020 | package compressed font files as well now |
 |  11 Feb 2019 | fixed syntax error in =Config.spec= file |
 |  31 Jan 2019 | added Source Code Pro and Source Sans Pro fonts; added compatibility with latest !JQueryPlugin |
@@ -61,7 +76,7 @@ Note that copyrights apply to each font individually.
 %META:FIELD{name="Release" title="Release" value="%25$RELEASE%25"}%
 %META:FIELD{name="Description" title="Description" value="%25$SHORTDESCRIPTION%25"}%
 %META:FIELD{name="Repository" title="Repository" value="https://github.com/foswiki/%25$ROOTMODULE%25"}%
-%META:FIELD{name="Copyright" title="Copyright" value="2015-2020 Michael Daum"}%
+%META:FIELD{name="Copyright" title="Copyright" value="2015-2022 Michael Daum"}%
 %META:FIELD{name="License" title="License" value="GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]])"}%
 %META:FIELD{name="Home" title="Home" value="https://foswiki.org/Extensions/%25$ROOTMODULE%25"}%
 %META:FIELD{name="Support" title="Support" value="https://foswiki.org/Support/%25$ROOTMODULE%25"}%

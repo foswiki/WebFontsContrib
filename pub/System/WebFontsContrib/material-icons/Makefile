@@ -2,7 +2,6 @@ FOSWIKI_ROOT?=~/foswiki/core
 
 FONT_SOURCE=\
   MaterialIcons-Regular.ttf \
-  MaterialIcons-Regular.woff \
   MaterialIcons-Regular.woff2
 
 TARGET=font-face.css material.json $(FONT_SOURCE)
@@ -19,7 +18,7 @@ json.txt: Makefile
 	@wget -q -O - http://fonts.google.com/metadata/icons |tail +2 > $@
 
 ifneq (,$(wildcard git))
-material.json: generate-json git/iconfont/codepoints
+material.json: generate-json git/font/MaterialIcons-Regular.codepoints
 	@echo "generating $@"
 	@./generate-json > $@
 
@@ -27,11 +26,15 @@ material-4.json: generate-json json.txt
 	@echo "generating $@"
 	@./generate-json-4 > $@
 
-font-face.uncompressed.css: generate-css git/iconfont/codepoints
+font-face.uncompressed.css: generate-css git/font/MaterialIcons-Regular.codepoints
 	@echo "generating $@"
 	@./generate-css > $@
 
-MaterialIcons-Regular.%: git/iconfont/MaterialIcons-Regular.%
+MaterialIcons-Regular.%: git/font/MaterialIcons-Regular.%
 	@echo "generating $@"
 	@$(CAT) $< > $@
 endif
+
+MaterialIcons-Regular.woff2: MaterialIcons-Regular.ttf
+	@echo "generating $@"
+	@woff2_compress $<

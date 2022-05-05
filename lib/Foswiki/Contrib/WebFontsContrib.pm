@@ -1,6 +1,6 @@
 # Extension for Foswiki - The Free and Open Source Wiki, http://foswiki.org/
 #
-# WebFontsContrib is Copyright (C) 2015-2020 Michael Daum http://michaeldaumconsulting.com
+# WebFontsContrib is Copyright (C) 2015-2022 Michael Daum http://michaeldaumconsulting.com
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -20,9 +20,9 @@ use warnings;
 
 use Foswiki::Func ();
 
-our $VERSION = '4.00';
-our $RELEASE = '28 Oct 2020';
-our $SHORTDESCRIPTION = 'Web fonts for Foswiki skins';
+our $VERSION = '5.00';
+our $RELEASE = '05 MAy 2022';
+our $SHORTDESCRIPTION = 'Web fonts for Foswiki';
 our $NO_PREFS_IN_TOPIC = 1;
 
 1;

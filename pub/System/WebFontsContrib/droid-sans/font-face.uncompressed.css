@@ -1,11 +1,10 @@
 /* normal */
 @font-face {
     font-family: 'Droid Sans';
-    src: url('DroidSans-webfont.eot');
-    src: url('DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
-         url('DroidSans-webfont.woff') format('woff'),
-         url('DroidSans-webfont.ttf') format('truetype'),
-         url('DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-display: swap;
+    src: url('DroidSans.woff') format('woff'),
+         url('DroidSans.ttf') format('truetype'),
+         url('DroidSans.svg#droid_sansregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -14,11 +13,10 @@
 /* bold */
 @font-face {
     font-family: 'Droid Sans';
-    src: url('DroidSans-Bold-webfont.eot');
-    src: url('DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('DroidSans-Bold-webfont.woff') format('woff'),
-         url('DroidSans-Bold-webfont.ttf') format('truetype'),
-         url('DroidSans-Bold-webfont.svg#droid_sansbold') format('svg');
+    font-display: swap;
+    src: url('DroidSans-Bold.woff') format('woff'),
+         url('DroidSans-Bold.ttf') format('truetype'),
+         url('DroidSans-Bold.svg#droid_sansbold') format('svg');
     font-weight: bold;
     font-style: normal;
 }

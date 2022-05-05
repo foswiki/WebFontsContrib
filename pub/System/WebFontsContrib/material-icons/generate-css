@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-my $iconFile = "./git/iconfont/codepoints";
+my $iconFile = "./git/font/MaterialIcons-Regular.codepoints";
 
 open(my $fh, '<:encoding(UTF-8)', $iconFile)
   or die "Could not open file '$iconFile' $!";
