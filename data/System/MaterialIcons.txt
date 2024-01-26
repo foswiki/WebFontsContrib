@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="micha" comment="reprev" date="1641844109" format="1.1" reprev="3" version="3"}%
+%META:TOPICINFO{author="ProjectContributor" comment="reprev" date="1641844109" format="1.1" version="1"}%
 %META:TOPICPARENT{name="WebFontsContrib"}%
 ---+!! %TOPIC%
 
@@ -108,6 +108,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-15mp'></i> 15mp</a>
 <a class='entry'><i class='ma ma-16mp'></i> 16mp</a>
 <a class='entry'><i class='ma ma-17mp'></i> 17mp</a>
+<a class='entry'><i class='ma ma-18-up-rating'></i> 18-up-rating</a>
 <a class='entry'><i class='ma ma-18mp'></i> 18mp</a>
 <a class='entry'><i class='ma ma-19mp'></i> 19mp</a>
 <a class='entry'><i class='ma ma-1k'></i> 1k</a>
@@ -183,6 +184,8 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-add-circle'></i> add-circle</a>
 <a class='entry'><i class='ma ma-add-circle-outline'></i> add-circle-outline</a>
 <a class='entry'><i class='ma ma-add-comment'></i> add-comment</a>
+<a class='entry'><i class='ma ma-add-home'></i> add-home</a>
+<a class='entry'><i class='ma ma-add-home-work'></i> add-home-work</a>
 <a class='entry'><i class='ma ma-add-ic-call'></i> add-ic-call</a>
 <a class='entry'><i class='ma ma-add-link'></i> add-link</a>
 <a class='entry'><i class='ma ma-add-location'></i> add-location</a>
@@ -272,6 +275,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-arrow-forward'></i> arrow-forward</a>
 <a class='entry'><i class='ma ma-arrow-forward-ios'></i> arrow-forward-ios</a>
 <a class='entry'><i class='ma ma-arrow-left'></i> arrow-left</a>
+<a class='entry'><i class='ma ma-arrow-outward'></i> arrow-outward</a>
 <a class='entry'><i class='ma ma-arrow-right'></i> arrow-right</a>
 <a class='entry'><i class='ma ma-arrow-right-alt'></i> arrow-right-alt</a>
 <a class='entry'><i class='ma ma-arrow-upward'></i> arrow-upward</a>
@@ -285,6 +289,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-assignment-return'></i> assignment-return</a>
 <a class='entry'><i class='ma ma-assignment-returned'></i> assignment-returned</a>
 <a class='entry'><i class='ma ma-assignment-turned-in'></i> assignment-turned-in</a>
+<a class='entry'><i class='ma ma-assist-walker'></i> assist-walker</a>
 <a class='entry'><i class='ma ma-assistant'></i> assistant</a>
 <a class='entry'><i class='ma ma-assistant-direction'></i> assistant-direction</a>
 <a class='entry'><i class='ma ma-assistant-navigation'></i> assistant-navigation</a>
@@ -307,6 +312,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-auto-fix-normal'></i> auto-fix-normal</a>
 <a class='entry'><i class='ma ma-auto-fix-off'></i> auto-fix-off</a>
 <a class='entry'><i class='ma ma-auto-graph'></i> auto-graph</a>
+<a class='entry'><i class='ma ma-auto-mode'></i> auto-mode</a>
 <a class='entry'><i class='ma ma-auto-stories'></i> auto-stories</a>
 <a class='entry'><i class='ma ma-autofps-select'></i> autofps-select</a>
 <a class='entry'><i class='ma ma-autorenew'></i> autorenew</a>
@@ -351,6 +357,9 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-bike-scooter'></i> bike-scooter</a>
 <a class='entry'><i class='ma ma-biotech'></i> biotech</a>
 <a class='entry'><i class='ma ma-blender'></i> blender</a>
+<a class='entry'><i class='ma ma-blind'></i> blind</a>
+<a class='entry'><i class='ma ma-blinds'></i> blinds</a>
+<a class='entry'><i class='ma ma-blinds-closed'></i> blinds-closed</a>
 <a class='entry'><i class='ma ma-block'></i> block</a>
 <a class='entry'><i class='ma ma-block-flipped'></i> block-flipped</a>
 <a class='entry'><i class='ma ma-bloodtype'></i> bloodtype</a>
@@ -400,6 +409,8 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-brightness-high'></i> brightness-high</a>
 <a class='entry'><i class='ma ma-brightness-low'></i> brightness-low</a>
 <a class='entry'><i class='ma ma-brightness-medium'></i> brightness-medium</a>
+<a class='entry'><i class='ma ma-broadcast-on-home'></i> broadcast-on-home</a>
+<a class='entry'><i class='ma ma-broadcast-on-personal'></i> broadcast-on-personal</a>
 <a class='entry'><i class='ma ma-broken-image'></i> broken-image</a>
 <a class='entry'><i class='ma ma-browse-gallery'></i> browse-gallery</a>
 <a class='entry'><i class='ma ma-browser-not-supported'></i> browser-not-supported</a>
@@ -539,6 +550,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-connected-tv'></i> connected-tv</a>
 <a class='entry'><i class='ma ma-connecting-airports'></i> connecting-airports</a>
 <a class='entry'><i class='ma ma-construction'></i> construction</a>
+<a class='entry'><i class='ma ma-contact-emergency'></i> contact-emergency</a>
 <a class='entry'><i class='ma ma-contact-mail'></i> contact-mail</a>
 <a class='entry'><i class='ma ma-contact-page'></i> contact-page</a>
 <a class='entry'><i class='ma ma-contact-phone'></i> contact-phone</a>
@@ -592,6 +604,8 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-currency-rupee'></i> currency-rupee</a>
 <a class='entry'><i class='ma ma-currency-yen'></i> currency-yen</a>
 <a class='entry'><i class='ma ma-currency-yuan'></i> currency-yuan</a>
+<a class='entry'><i class='ma ma-curtains'></i> curtains</a>
+<a class='entry'><i class='ma ma-curtains-closed'></i> curtains-closed</a>
 <a class='entry'><i class='ma ma-cyclone'></i> cyclone</a>
 <a class='entry'><i class='ma ma-dangerous'></i> dangerous</a>
 <a class='entry'><i class='ma ma-dark-mode'></i> dark-mode</a>
@@ -604,6 +618,8 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-data-saver-on'></i> data-saver-on</a>
 <a class='entry'><i class='ma ma-data-thresholding'></i> data-thresholding</a>
 <a class='entry'><i class='ma ma-data-usage'></i> data-usage</a>
+<a class='entry'><i class='ma ma-dataset'></i> dataset</a>
+<a class='entry'><i class='ma ma-dataset-linked'></i> dataset-linked</a>
 <a class='entry'><i class='ma ma-date-range'></i> date-range</a>
 <a class='entry'><i class='ma ma-deblur'></i> deblur</a>
 <a class='entry'><i class='ma ma-deck'></i> deck</a>
@@ -620,6 +636,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-description'></i> description</a>
 <a class='entry'><i class='ma ma-deselect'></i> deselect</a>
 <a class='entry'><i class='ma ma-design-services'></i> design-services</a>
+<a class='entry'><i class='ma ma-desk'></i> desk</a>
 <a class='entry'><i class='ma ma-desktop-access-disabled'></i> desktop-access-disabled</a>
 <a class='entry'><i class='ma ma-desktop-mac'></i> desktop-mac</a>
 <a class='entry'><i class='ma ma-desktop-windows'></i> desktop-windows</a>
@@ -665,6 +682,9 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-discord'></i> discord</a>
 <a class='entry'><i class='ma ma-discount'></i> discount</a>
 <a class='entry'><i class='ma ma-display-settings'></i> display-settings</a>
+<a class='entry'><i class='ma ma-diversity-1'></i> diversity-1</a>
+<a class='entry'><i class='ma ma-diversity-2'></i> diversity-2</a>
+<a class='entry'><i class='ma ma-diversity-3'></i> diversity-3</a>
 <a class='entry'><i class='ma ma-dnd-forwardslash'></i> dnd-forwardslash</a>
 <a class='entry'><i class='ma ma-dns'></i> dns</a>
 <a class='entry'><i class='ma ma-do-disturb'></i> do-disturb</a>
@@ -737,7 +757,9 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-elderly'></i> elderly</a>
 <a class='entry'><i class='ma ma-elderly-woman'></i> elderly-woman</a>
 <a class='entry'><i class='ma ma-electric-bike'></i> electric-bike</a>
+<a class='entry'><i class='ma ma-electric-bolt'></i> electric-bolt</a>
 <a class='entry'><i class='ma ma-electric-car'></i> electric-car</a>
+<a class='entry'><i class='ma ma-electric-meter'></i> electric-meter</a>
 <a class='entry'><i class='ma ma-electric-moped'></i> electric-moped</a>
 <a class='entry'><i class='ma ma-electric-rickshaw'></i> electric-rickshaw</a>
 <a class='entry'><i class='ma ma-electric-scooter'></i> electric-scooter</a>
@@ -756,6 +778,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-emoji-people'></i> emoji-people</a>
 <a class='entry'><i class='ma ma-emoji-symbols'></i> emoji-symbols</a>
 <a class='entry'><i class='ma ma-emoji-transportation'></i> emoji-transportation</a>
+<a class='entry'><i class='ma ma-energy-savings-leaf'></i> energy-savings-leaf</a>
 <a class='entry'><i class='ma ma-engineering'></i> engineering</a>
 <a class='entry'><i class='ma ma-enhance-photo-translate'></i> enhance-photo-translate</a>
 <a class='entry'><i class='ma ma-enhanced-encryption'></i> enhanced-encryption</a>
@@ -792,6 +815,11 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-extension'></i> extension</a>
 <a class='entry'><i class='ma ma-extension-off'></i> extension-off</a>
 <a class='entry'><i class='ma ma-face'></i> face</a>
+<a class='entry'><i class='ma ma-face-2'></i> face-2</a>
+<a class='entry'><i class='ma ma-face-3'></i> face-3</a>
+<a class='entry'><i class='ma ma-face-4'></i> face-4</a>
+<a class='entry'><i class='ma ma-face-5'></i> face-5</a>
+<a class='entry'><i class='ma ma-face-6'></i> face-6</a>
 <a class='entry'><i class='ma ma-face-retouching-natural'></i> face-retouching-natural</a>
 <a class='entry'><i class='ma ma-face-retouching-off'></i> face-retouching-off</a>
 <a class='entry'><i class='ma ma-facebook'></i> facebook</a>
@@ -853,6 +881,8 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-fingerprint'></i> fingerprint</a>
 <a class='entry'><i class='ma ma-fire-extinguisher'></i> fire-extinguisher</a>
 <a class='entry'><i class='ma ma-fire-hydrant'></i> fire-hydrant</a>
+<a class='entry'><i class='ma ma-fire-hydrant-alt'></i> fire-hydrant-alt</a>
+<a class='entry'><i class='ma ma-fire-truck'></i> fire-truck</a>
 <a class='entry'><i class='ma ma-fireplace'></i> fireplace</a>
 <a class='entry'><i class='ma ma-first-page'></i> first-page</a>
 <a class='entry'><i class='ma ma-fit-screen'></i> fit-screen</a>
@@ -879,6 +909,8 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-flip-to-front'></i> flip-to-front</a>
 <a class='entry'><i class='ma ma-flood'></i> flood</a>
 <a class='entry'><i class='ma ma-flourescent'></i> flourescent</a>
+<a class='entry'><i class='ma ma-flourescent'></i> flourescent</a>
+<a class='entry'><i class='ma ma-fluorescent'></i> fluorescent</a>
 <a class='entry'><i class='ma ma-flutter-dash'></i> flutter-dash</a>
 <a class='entry'><i class='ma ma-fmd-bad'></i> fmd-bad</a>
 <a class='entry'><i class='ma ma-fmd-good'></i> fmd-good</a>
@@ -943,6 +975,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-gamepad'></i> gamepad</a>
 <a class='entry'><i class='ma ma-games'></i> games</a>
 <a class='entry'><i class='ma ma-garage'></i> garage</a>
+<a class='entry'><i class='ma ma-gas-meter'></i> gas-meter</a>
 <a class='entry'><i class='ma ma-gavel'></i> gavel</a>
 <a class='entry'><i class='ma ma-generating-tokens'></i> generating-tokens</a>
 <a class='entry'><i class='ma ma-gesture'></i> gesture</a>
@@ -977,6 +1010,8 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-group-remove'></i> group-remove</a>
 <a class='entry'><i class='ma ma-group-work'></i> group-work</a>
 <a class='entry'><i class='ma ma-groups'></i> groups</a>
+<a class='entry'><i class='ma ma-groups-2'></i> groups-2</a>
+<a class='entry'><i class='ma ma-groups-3'></i> groups-3</a>
 <a class='entry'><i class='ma ma-h-mobiledata'></i> h-mobiledata</a>
 <a class='entry'><i class='ma ma-h-plus-mobiledata'></i> h-plus-mobiledata</a>
 <a class='entry'><i class='ma ma-hail'></i> hail</a>
@@ -1004,6 +1039,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-hearing'></i> hearing</a>
 <a class='entry'><i class='ma ma-hearing-disabled'></i> hearing-disabled</a>
 <a class='entry'><i class='ma ma-heart-broken'></i> heart-broken</a>
+<a class='entry'><i class='ma ma-heat-pump'></i> heat-pump</a>
 <a class='entry'><i class='ma ma-height'></i> height</a>
 <a class='entry'><i class='ma ma-help'></i> help</a>
 <a class='entry'><i class='ma ma-help-center'></i> help-center</a>
@@ -1156,6 +1192,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-light'></i> light</a>
 <a class='entry'><i class='ma ma-light-mode'></i> light-mode</a>
 <a class='entry'><i class='ma ma-lightbulb'></i> lightbulb</a>
+<a class='entry'><i class='ma ma-lightbulb-circle'></i> lightbulb-circle</a>
 <a class='entry'><i class='ma ma-lightbulb-outline'></i> lightbulb-outline</a>
 <a class='entry'><i class='ma ma-line-axis'></i> line-axis</a>
 <a class='entry'><i class='ma ma-line-style'></i> line-style</a>
@@ -1215,6 +1252,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-lock-clock'></i> lock-clock</a>
 <a class='entry'><i class='ma ma-lock-open'></i> lock-open</a>
 <a class='entry'><i class='ma ma-lock-outline'></i> lock-outline</a>
+<a class='entry'><i class='ma ma-lock-person'></i> lock-person</a>
 <a class='entry'><i class='ma ma-lock-reset'></i> lock-reset</a>
 <a class='entry'><i class='ma ma-login'></i> login</a>
 <a class='entry'><i class='ma ma-logo-dev'></i> logo-dev</a>
@@ -1234,10 +1272,16 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-lte-plus-mobiledata'></i> lte-plus-mobiledata</a>
 <a class='entry'><i class='ma ma-luggage'></i> luggage</a>
 <a class='entry'><i class='ma ma-lunch-dining'></i> lunch-dining</a>
+<a class='entry'><i class='ma ma-lyrics'></i> lyrics</a>
+<a class='entry'><i class='ma ma-macro-off'></i> macro-off</a>
 <a class='entry'><i class='ma ma-mail'></i> mail</a>
+<a class='entry'><i class='ma ma-mail-lock'></i> mail-lock</a>
 <a class='entry'><i class='ma ma-mail-outline'></i> mail-outline</a>
 <a class='entry'><i class='ma ma-male'></i> male</a>
 <a class='entry'><i class='ma ma-man'></i> man</a>
+<a class='entry'><i class='ma ma-man-2'></i> man-2</a>
+<a class='entry'><i class='ma ma-man-3'></i> man-3</a>
+<a class='entry'><i class='ma ma-man-4'></i> man-4</a>
 <a class='entry'><i class='ma ma-manage-accounts'></i> manage-accounts</a>
 <a class='entry'><i class='ma ma-manage-history'></i> manage-history</a>
 <a class='entry'><i class='ma ma-manage-search'></i> manage-search</a>
@@ -1292,6 +1336,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-mode-comment'></i> mode-comment</a>
 <a class='entry'><i class='ma ma-mode-edit'></i> mode-edit</a>
 <a class='entry'><i class='ma ma-mode-edit-outline'></i> mode-edit-outline</a>
+<a class='entry'><i class='ma ma-mode-fan-off'></i> mode-fan-off</a>
 <a class='entry'><i class='ma ma-mode-night'></i> mode-night</a>
 <a class='entry'><i class='ma ma-mode-of-travel'></i> mode-of-travel</a>
 <a class='entry'><i class='ma ma-mode-standby'></i> mode-standby</a>
@@ -1348,6 +1393,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-near-me-disabled'></i> near-me-disabled</a>
 <a class='entry'><i class='ma ma-nearby-error'></i> nearby-error</a>
 <a class='entry'><i class='ma ma-nearby-off'></i> nearby-off</a>
+<a class='entry'><i class='ma ma-nest-cam-wired-stand'></i> nest-cam-wired-stand</a>
 <a class='entry'><i class='ma ma-network-cell'></i> network-cell</a>
 <a class='entry'><i class='ma ma-network-check'></i> network-check</a>
 <a class='entry'><i class='ma ma-network-locked'></i> network-locked</a>
@@ -1368,6 +1414,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-nightlight-round'></i> nightlight-round</a>
 <a class='entry'><i class='ma ma-nights-stay'></i> nights-stay</a>
 <a class='entry'><i class='ma ma-no-accounts'></i> no-accounts</a>
+<a class='entry'><i class='ma ma-no-adult-content'></i> no-adult-content</a>
 <a class='entry'><i class='ma ma-no-backpack'></i> no-backpack</a>
 <a class='entry'><i class='ma ma-no-cell'></i> no-cell</a>
 <a class='entry'><i class='ma ma-no-crash'></i> no-crash</a>
@@ -1412,6 +1459,8 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-offline-bolt'></i> offline-bolt</a>
 <a class='entry'><i class='ma ma-offline-pin'></i> offline-pin</a>
 <a class='entry'><i class='ma ma-offline-share'></i> offline-share</a>
+<a class='entry'><i class='ma ma-oil-barrel'></i> oil-barrel</a>
+<a class='entry'><i class='ma ma-on-device-training'></i> on-device-training</a>
 <a class='entry'><i class='ma ma-ondemand-video'></i> ondemand-video</a>
 <a class='entry'><i class='ma ma-online-prediction'></i> online-prediction</a>
 <a class='entry'><i class='ma ma-opacity'></i> opacity</a>
@@ -1479,6 +1528,9 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-perm-phone-msg'></i> perm-phone-msg</a>
 <a class='entry'><i class='ma ma-perm-scan-wifi'></i> perm-scan-wifi</a>
 <a class='entry'><i class='ma ma-person'></i> person</a>
+<a class='entry'><i class='ma ma-person-2'></i> person-2</a>
+<a class='entry'><i class='ma ma-person-3'></i> person-3</a>
+<a class='entry'><i class='ma ma-person-4'></i> person-4</a>
 <a class='entry'><i class='ma ma-person-add'></i> person-add</a>
 <a class='entry'><i class='ma ma-person-add-alt'></i> person-add-alt</a>
 <a class='entry'><i class='ma ma-person-add-alt-1'></i> person-add-alt-1</a>
@@ -1584,7 +1636,10 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-privacy-tip'></i> privacy-tip</a>
 <a class='entry'><i class='ma ma-private-connectivity'></i> private-connectivity</a>
 <a class='entry'><i class='ma ma-production-quantity-limits'></i> production-quantity-limits</a>
+<a class='entry'><i class='ma ma-propane'></i> propane</a>
+<a class='entry'><i class='ma ma-propane-tank'></i> propane-tank</a>
 <a class='entry'><i class='ma ma-psychology'></i> psychology</a>
+<a class='entry'><i class='ma ma-psychology-alt'></i> psychology-alt</a>
 <a class='entry'><i class='ma ma-public'></i> public</a>
 <a class='entry'><i class='ma ma-public-off'></i> public-off</a>
 <a class='entry'><i class='ma ma-publish'></i> publish</a>
@@ -1642,8 +1697,10 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-remove-from-queue'></i> remove-from-queue</a>
 <a class='entry'><i class='ma ma-remove-moderator'></i> remove-moderator</a>
 <a class='entry'><i class='ma ma-remove-red-eye'></i> remove-red-eye</a>
+<a class='entry'><i class='ma ma-remove-road'></i> remove-road</a>
 <a class='entry'><i class='ma ma-remove-shopping-cart'></i> remove-shopping-cart</a>
 <a class='entry'><i class='ma ma-reorder'></i> reorder</a>
+<a class='entry'><i class='ma ma-repartition'></i> repartition</a>
 <a class='entry'><i class='ma ma-repeat'></i> repeat</a>
 <a class='entry'><i class='ma ma-repeat-on'></i> repeat-on</a>
 <a class='entry'><i class='ma ma-repeat-one'></i> repeat-one</a>
@@ -1673,6 +1730,8 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-ring-volume'></i> ring-volume</a>
 <a class='entry'><i class='ma ma-rocket'></i> rocket</a>
 <a class='entry'><i class='ma ma-rocket-launch'></i> rocket-launch</a>
+<a class='entry'><i class='ma ma-roller-shades'></i> roller-shades</a>
+<a class='entry'><i class='ma ma-roller-shades-closed'></i> roller-shades-closed</a>
 <a class='entry'><i class='ma ma-roller-skating'></i> roller-skating</a>
 <a class='entry'><i class='ma ma-roofing'></i> roofing</a>
 <a class='entry'><i class='ma ma-room'></i> room</a>
@@ -1725,6 +1784,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-screen-search-desktop'></i> screen-search-desktop</a>
 <a class='entry'><i class='ma ma-screen-share'></i> screen-share</a>
 <a class='entry'><i class='ma ma-screenshot'></i> screenshot</a>
+<a class='entry'><i class='ma ma-screenshot-monitor'></i> screenshot-monitor</a>
 <a class='entry'><i class='ma ma-scuba-diving'></i> scuba-diving</a>
 <a class='entry'><i class='ma ma-sd'></i> sd</a>
 <a class='entry'><i class='ma ma-sd-card'></i> sd-card</a>
@@ -1745,6 +1805,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-send-time-extension'></i> send-time-extension</a>
 <a class='entry'><i class='ma ma-send-to-mobile'></i> send-to-mobile</a>
 <a class='entry'><i class='ma ma-sensor-door'></i> sensor-door</a>
+<a class='entry'><i class='ma ma-sensor-occupied'></i> sensor-occupied</a>
 <a class='entry'><i class='ma ma-sensor-window'></i> sensor-window</a>
 <a class='entry'><i class='ma ma-sensors'></i> sensors</a>
 <a class='entry'><i class='ma ma-sensors-off'></i> sensors-off</a>
@@ -1777,6 +1838,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-settings-system-daydream'></i> settings-system-daydream</a>
 <a class='entry'><i class='ma ma-settings-voice'></i> settings-voice</a>
 <a class='entry'><i class='ma ma-severe-cold'></i> severe-cold</a>
+<a class='entry'><i class='ma ma-shape-line'></i> shape-line</a>
 <a class='entry'><i class='ma ma-share'></i> share</a>
 <a class='entry'><i class='ma ma-share-arrival-time'></i> share-arrival-time</a>
 <a class='entry'><i class='ma ma-share-location'></i> share-location</a>
@@ -1849,6 +1911,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-snowshoeing'></i> snowshoeing</a>
 <a class='entry'><i class='ma ma-soap'></i> soap</a>
 <a class='entry'><i class='ma ma-social-distance'></i> social-distance</a>
+<a class='entry'><i class='ma ma-solar-power'></i> solar-power</a>
 <a class='entry'><i class='ma ma-sort'></i> sort</a>
 <a class='entry'><i class='ma ma-sort-by-alpha'></i> sort-by-alpha</a>
 <a class='entry'><i class='ma ma-sos'></i> sos</a>
@@ -2051,6 +2114,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-toll'></i> toll</a>
 <a class='entry'><i class='ma ma-tonality'></i> tonality</a>
 <a class='entry'><i class='ma ma-topic'></i> topic</a>
+<a class='entry'><i class='ma ma-tornado'></i> tornado</a>
 <a class='entry'><i class='ma ma-touch-app'></i> touch-app</a>
 <a class='entry'><i class='ma ma-tour'></i> tour</a>
 <a class='entry'><i class='ma ma-toys'></i> toys</a>
@@ -2058,6 +2122,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-traffic'></i> traffic</a>
 <a class='entry'><i class='ma ma-train'></i> train</a>
 <a class='entry'><i class='ma ma-tram'></i> tram</a>
+<a class='entry'><i class='ma ma-transcribe'></i> transcribe</a>
 <a class='entry'><i class='ma ma-transfer-within-a-station'></i> transfer-within-a-station</a>
 <a class='entry'><i class='ma ma-transform'></i> transform</a>
 <a class='entry'><i class='ma ma-transgender'></i> transgender</a>
@@ -2069,6 +2134,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-trending-neutral'></i> trending-neutral</a>
 <a class='entry'><i class='ma ma-trending-up'></i> trending-up</a>
 <a class='entry'><i class='ma ma-trip-origin'></i> trip-origin</a>
+<a class='entry'><i class='ma ma-troubleshoot'></i> troubleshoot</a>
 <a class='entry'><i class='ma ma-try'></i> try</a>
 <a class='entry'><i class='ma ma-tsunami'></i> tsunami</a>
 <a class='entry'><i class='ma ma-tty'></i> tty</a>
@@ -2085,13 +2151,16 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-tv'></i> tv</a>
 <a class='entry'><i class='ma ma-tv-off'></i> tv-off</a>
 <a class='entry'><i class='ma ma-two-wheeler'></i> two-wheeler</a>
+<a class='entry'><i class='ma ma-type-specimen'></i> type-specimen</a>
 <a class='entry'><i class='ma ma-u-turn-left'></i> u-turn-left</a>
 <a class='entry'><i class='ma ma-u-turn-right'></i> u-turn-right</a>
 <a class='entry'><i class='ma ma-umbrella'></i> umbrella</a>
 <a class='entry'><i class='ma ma-unarchive'></i> unarchive</a>
 <a class='entry'><i class='ma ma-undo'></i> undo</a>
 <a class='entry'><i class='ma ma-unfold-less'></i> unfold-less</a>
+<a class='entry'><i class='ma ma-unfold-less-double'></i> unfold-less-double</a>
 <a class='entry'><i class='ma ma-unfold-more'></i> unfold-more</a>
+<a class='entry'><i class='ma ma-unfold-more-double'></i> unfold-more-double</a>
 <a class='entry'><i class='ma ma-unpublished'></i> unpublished</a>
 <a class='entry'><i class='ma ma-unsubscribe'></i> unsubscribe</a>
 <a class='entry'><i class='ma ma-upcoming'></i> upcoming</a>
@@ -2111,11 +2180,14 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-vertical-align-center'></i> vertical-align-center</a>
 <a class='entry'><i class='ma ma-vertical-align-top'></i> vertical-align-top</a>
 <a class='entry'><i class='ma ma-vertical-distribute'></i> vertical-distribute</a>
+<a class='entry'><i class='ma ma-vertical-shades'></i> vertical-shades</a>
+<a class='entry'><i class='ma ma-vertical-shades-closed'></i> vertical-shades-closed</a>
 <a class='entry'><i class='ma ma-vertical-split'></i> vertical-split</a>
 <a class='entry'><i class='ma ma-vibration'></i> vibration</a>
 <a class='entry'><i class='ma ma-video-call'></i> video-call</a>
 <a class='entry'><i class='ma ma-video-camera-back'></i> video-camera-back</a>
 <a class='entry'><i class='ma ma-video-camera-front'></i> video-camera-front</a>
+<a class='entry'><i class='ma ma-video-chat'></i> video-chat</a>
 <a class='entry'><i class='ma ma-video-collection'></i> video-collection</a>
 <a class='entry'><i class='ma ma-video-file'></i> video-file</a>
 <a class='entry'><i class='ma ma-video-label'></i> video-label</a>
@@ -2165,6 +2237,7 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-vpn-key-off'></i> vpn-key-off</a>
 <a class='entry'><i class='ma ma-vpn-lock'></i> vpn-lock</a>
 <a class='entry'><i class='ma ma-vrpano'></i> vrpano</a>
+<a class='entry'><i class='ma ma-wallet'></i> wallet</a>
 <a class='entry'><i class='ma ma-wallet-giftcard'></i> wallet-giftcard</a>
 <a class='entry'><i class='ma ma-wallet-membership'></i> wallet-membership</a>
 <a class='entry'><i class='ma ma-wallet-travel'></i> wallet-travel</a>
@@ -2204,6 +2277,9 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-wheelchair-pickup'></i> wheelchair-pickup</a>
 <a class='entry'><i class='ma ma-where-to-vote'></i> where-to-vote</a>
 <a class='entry'><i class='ma ma-widgets'></i> widgets</a>
+<a class='entry'><i class='ma ma-width-full'></i> width-full</a>
+<a class='entry'><i class='ma ma-width-normal'></i> width-normal</a>
+<a class='entry'><i class='ma ma-width-wide'></i> width-wide</a>
 <a class='entry'><i class='ma ma-wifi'></i> wifi</a>
 <a class='entry'><i class='ma ma-wifi-1-bar'></i> wifi-1-bar</a>
 <a class='entry'><i class='ma ma-wifi-2-bar'></i> wifi-2-bar</a>
@@ -2219,12 +2295,15 @@ jQuery(function($) {
 <a class='entry'><i class='ma ma-wifi-tethering-error'></i> wifi-tethering-error</a>
 <a class='entry'><i class='ma ma-wifi-tethering-error-rounded'></i> wifi-tethering-error-rounded</a>
 <a class='entry'><i class='ma ma-wifi-tethering-off'></i> wifi-tethering-off</a>
+<a class='entry'><i class='ma ma-wind-power'></i> wind-power</a>
 <a class='entry'><i class='ma ma-window'></i> window</a>
 <a class='entry'><i class='ma ma-wine-bar'></i> wine-bar</a>
 <a class='entry'><i class='ma ma-woman'></i> woman</a>
+<a class='entry'><i class='ma ma-woman-2'></i> woman-2</a>
 <a class='entry'><i class='ma ma-woo-commerce'></i> woo-commerce</a>
 <a class='entry'><i class='ma ma-wordpress'></i> wordpress</a>
 <a class='entry'><i class='ma ma-work'></i> work</a>
+<a class='entry'><i class='ma ma-work-history'></i> work-history</a>
 <a class='entry'><i class='ma ma-work-off'></i> work-off</a>
 <a class='entry'><i class='ma ma-work-outline'></i> work-outline</a>
 <a class='entry'><i class='ma ma-workspace-premium'></i> workspace-premium</a>

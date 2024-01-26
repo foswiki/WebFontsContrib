@@ -13,18 +13,18 @@ git:
 
 fonts: $(FONT_SOURCE)
 
-json.txt: Makefile
-	@echo fetching $@ 
-	@wget -q -O - http://fonts.google.com/metadata/icons |tail +2 > $@
+#json.txt: Makefile
+#	@echo fetching $@ 
+#	@wget -q -O - http://fonts.google.com/metadata/icons |tail +2 > $@
 
 ifneq (,$(wildcard git))
 material.json: generate-json git/font/MaterialIcons-Regular.codepoints
 	@echo "generating $@"
 	@./generate-json > $@
 
-material-4.json: generate-json json.txt
-	@echo "generating $@"
-	@./generate-json-4 > $@
+#material-4.json: generate-json json.txt
+#	@echo "generating $@"
+#	@./generate-json-4 > $@
 
 font-face.uncompressed.css: generate-css git/font/MaterialIcons-Regular.codepoints
 	@echo "generating $@"
