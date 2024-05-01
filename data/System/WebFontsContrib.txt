@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="ProjectContributor" comment="reprev" date="1616748570" format="1.1" version="1"}%
+%META:TOPICINFO{author="ProjectContributor" comment="reprev" date="1714559414" format="1.1" version="1"}%
 ---+!! %TOPIC%
 %FORMFIELD{"Description"}%
 
@@ -40,10 +40,11 @@ Depending on the font different styles and weights are defined in the font-face 
 | Source Code Pro | 200, 300, 400, 500, 600, 700, 900 | normal, italic |
 | Source Sans Pro | 200, 300, 400, 600, 700, 900 | normal, italic |
 | Source Serif Pro | 200, 300, 400, 600, 700, 900 | normal, italic |
+| Tabler Icons | 400 | normal | 
 | Titillium Web | 200, 300, 400, 600, 700, 900 | normal, italic |
 | Work Sans | 100, 200, 300, 400, 500, 600, 700, 800, 900 | normal, italic |
 
-See the list of all [[%SYSTEMWEB%.MaterialIcons][Material Icons]]
+See the list of all [[%SYSTEMWEB%.MaterialIcons][Material Icons]] and [[%SYSTEMWEB%.TablerIcons][Tabler Icons]] 
 
 ---++ Installation Instructions
 %$INSTALL_INSTRUCTIONS%
@@ -56,6 +57,7 @@ Note that copyrights apply to each font individually.
 ---++ Change History
 
 %TABLE{columnwidths="7em" tablewidth="100%"}%
+|  01 May 2024 | added tabler icons |
 |  26 Jan 2024 | added roboto-flex font |
 |  05 May 2022 | new major release |
 |  26 Mar 2021 | added =font-display:swap= to all font faces; \

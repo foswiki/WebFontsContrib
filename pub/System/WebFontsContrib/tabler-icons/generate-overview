@@ -1,0 +1,32 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+use JSON ();
+
+my $iconFile = "./tabler-icons.json";
+
+sub readFile {
+    my $data = '';
+    my $fh;
+    
+    open($fh, '<:encoding(UTF-8)', $iconFile)
+      or die "Could not open file '$iconFile' $!";
+
+    local $/ = undef;    # set to read to EOF
+    $data = <$fh>;
+    close($fh);
+
+    $data = '' unless $data;    # no undefined
+
+    return JSON::decode_json($data);
+}
+
+my $json = readFile();
+my $numIcons = scalar(@{$json->{icons}});
+ 
+print "<div class='overview clearfix'>\n";
+foreach my $desc (@{$json->{icons}}) {
+  print "<a class='entry'><i class='ti ti-$desc->{id}'></i> $desc->{id}</a>\n";
+}
+print "</div>\n\n$numIcons icons found\n";

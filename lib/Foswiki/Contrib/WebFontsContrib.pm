@@ -18,7 +18,7 @@ package Foswiki::Contrib::WebFontsContrib;
 use strict;
 use warnings;
 
-our $VERSION = '6.00';
+our $VERSION = '7.00';
 our $RELEASE = '%$RELEASE%';
 our $SHORTDESCRIPTION = 'Web fonts for Foswiki';
 our $LICENSECODE = '%$LICENSECODE%';

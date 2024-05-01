@@ -1,35 +1,31 @@
 "use strict";
 jQuery(function($) {
-   var timer;
+   var timer,
+      $overview = $(".overview"),
+      $counter = $(".iconCount");
+
    function filterOverview(val) {
-      var regex = new RegExp(val, "i"),
-         $overview = $(".overview");
-      console.log("filterOverview(",val,")");
-      if (val != '') {
-         $overview.find(".entry").hide().each(function() {
-            var $this = $(this);
-            if (regex.test($this.text())) {
-               $this.show();
-            }
-         });
+      var regex = new RegExp(val, "i"), count;
+
+      if (val === '') {
+         count = $overview.find(".entry").show().length;
       } else {
-         $overview.find(".entry").show();
+         count = $overview.find(".entry").hide().filter(function() {
+            return regex.test($(this).text());
+         }).show().length;
       }
+      $counter.text(count);
    }
-   $(".filterIcons:not(.filterIconsInited").livequery(function() {
+   $(".filterIcons").on("search", function() {
       var $input = $(this);
-      $input.addClass("filterIconsInited");
-      $input.on("keyup search", function() {
-         if (typeof(timer) !== 'undefined') {
-            //console.log("clearing timeout");
-            window.clearTimeout(timer);
-         }
-         timer = window.setTimeout(function() {
-            var val = $input.val();
-            filterOverview(val);
-            timer = undefined;
-         }, 100);
-         //console.log("new timer",timer);
-      });
+      if (typeof(timer) !== 'undefined') {
+         window.clearTimeout(timer);
+      }
+      timer = window.setTimeout(function() {
+         var val = $input.val();
+         filterOverview(val);
+         timer = undefined;
+      }, 250);
    });
+   filterOverview();
 });

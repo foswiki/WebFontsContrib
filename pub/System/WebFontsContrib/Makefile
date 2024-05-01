@@ -17,6 +17,7 @@ SUBDIRS=\
   roboto-condensed \
   source-code-pro \
   source-sans-pro \
+  tabler-icons \
   titillium-web \
   work-sans \
 

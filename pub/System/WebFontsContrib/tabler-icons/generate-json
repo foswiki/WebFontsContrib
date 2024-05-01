@@ -1,0 +1,38 @@
+#!/usr/bin/env perl
+
+# extract id and unicode from font-face css
+
+use strict;
+use warnings;
+use JSON ();
+
+my $fontFaceFile = "font-face.uncompressed.css";
+
+sub readFile {
+    my $data = '';
+    my $fh;
+    
+    open($fh, '<:encoding(UTF-8)', $fontFaceFile)
+      or die "Could not open file '$fontFaceFile' $!";
+
+    local $/ = undef;    # set to read to EOF
+    $data = <$fh>;
+    close($fh);
+
+    return $data // '';
+}
+
+my $result = {
+  "icons" => [],
+};
+
+my $data = readFile();
+
+while ($data =~ /\.ti\-([0-9a-z\-]+):before\s*{.*?content:\s*"\\(.*?)";/gms) {
+  push @{$result->{icons}}, {
+    "id" => $1,
+    "unicode" => $2,
+  };
+}
+
+print JSON::to_json($result, { pretty => 1});

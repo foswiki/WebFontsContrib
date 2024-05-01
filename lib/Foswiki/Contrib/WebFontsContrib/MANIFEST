@@ -1,5 +1,6 @@
 !noci
 data/System/MaterialIcons.txt 0644
+data/System/TablerIcons.txt 0644
 data/System/WebFontsContrib.txt 0644
 lib/Foswiki/Contrib/WebFontsContrib/Config.spec 0644
 lib/Foswiki/Contrib/WebFontsContrib/DEPENDENCIES 0644
@@ -437,6 +438,16 @@ pub/System/WebFontsContrib/source-serif-pro/source-serif-pro-v10-latin-italic.wo
 pub/System/WebFontsContrib/source-serif-pro/source-serif-pro-v10-latin-italic.woff2 0644
 pub/System/WebFontsContrib/source-serif-pro/source-serif-pro-v10-latin-regular.woff 0644
 pub/System/WebFontsContrib/source-serif-pro/source-serif-pro-v10-latin-regular.woff2 0644
+pub/System/WebFontsContrib/tabler-icons/font-face.css 0644
+pub/System/WebFontsContrib/tabler-icons/font-face.css.gz 0644
+pub/System/WebFontsContrib/tabler-icons/font-face.uncompressed.css 0644
+pub/System/WebFontsContrib/tabler-icons/fonts/tabler-icons.ttf 0644
+pub/System/WebFontsContrib/tabler-icons/fonts/tabler-icons.woff 0644
+pub/System/WebFontsContrib/tabler-icons/fonts/tabler-icons.woff2 0644
+pub/System/WebFontsContrib/tabler-icons/generate-json 0644
+pub/System/WebFontsContrib/tabler-icons/generate-overview 0644
+pub/System/WebFontsContrib/tabler-icons/Makefile 0644
+pub/System/WebFontsContrib/tabler-icons/tabler-icons.json 0644
 pub/System/WebFontsContrib/titillium-web/font-face.css 0644
 pub/System/WebFontsContrib/titillium-web/font-face.css.gz 0644
 pub/System/WebFontsContrib/titillium-web/font-face.uncompressed.css 0644
