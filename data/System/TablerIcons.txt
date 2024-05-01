@@ -1,11 +1,11 @@
-%META:TOPICINFO{author="ProjectContributor" comment="reprev" date="1714564964" format="1.1" version="1"}%
+%META:TOPICINFO{author="ProjectContributor" comment="reprev" date="1714574584" format="1.1" version="1"}%
 %META:TOPICPARENT{name="WebFontsContrib"}%
 ---+!! %TOPIC%
 
 ---++ Description
 
-This is a set of over 350 free MIT-licensed high-quality icons for you to use in your web projects. 
-The original set of SVG icons is packaged as an icon font to fit into the <nop>JQueryPlugin's icon service.
+This is a set of over 5300 free MIT-licensed high-quality icons for you to use in your web projects. 
+The set is packaged as a web font to fit into Foswiki's [[%SYSTEMWEB%.IconService]].
 
 See https://github.com/tabler/tabler-icons for more information.
 
