@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  font-optical-sizing: auto;
+/*
+  src: url('Raleway-VariableFont_wght.woff2') format('woff2'), 
+       url('Raleway-VariableFont_wght.woff') format('woff'), 
+       url('Raleway-VariableFont_wght.ttf') format('truetype');
+*/
+  src: url('Raleway-VariableFont_wght.woff2') format('woff2-variations');
+  src: url('Raleway-VariableFont_wght.woff2') format('woff2') tech('variations');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  font-optical-sizing: auto;
+/*
+  src: url('Raleway-Italic-VariableFont_wght.woff2') format('woff2'), 
+       url('Raleway-Italic-VariableFont_wght.woff') format('woff'), 
+       url('Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+*/
+  src: url('Raleway-Italic-VariableFont_wght.woff2') format('woff2-variations');
+  src: url('Raleway-Italic-VariableFont_wght.woff2') format('woff2') tech('variations');
+}

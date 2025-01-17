@@ -12,6 +12,7 @@ SUBDIRS=\
   oswald \
   overpass \
   poppins \
+  raleway \
   roboto \
   roboto-mono \
   roboto-condensed \

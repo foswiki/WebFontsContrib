@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="ProjectContributor" comment="reprev" date="1714559414" format="1.1" version="1"}%
+%META:TOPICINFO{author="ProjectContributor" comment="" date="1737132673" format="1.1" version="1"}%
 ---+!! %TOPIC%
 %FORMFIELD{"Description"}%
 
@@ -34,9 +34,8 @@ Depending on the font different styles and weights are defined in the font-face 
 | Oswald | 200, 300, 400, 500, 600, 700 | normal |
 | Overpass | 100, 200, 300, 400, 600, 700, 800, 900 | normal, italic |
 | Poppins | 100, 200, 300, 400, 500, 600, 700, 800, 900 | normal, italic |
-| Roboto | 100, 300, 400, 500, 700, 900 | normal, italic |
-| Roboto Condensed | 300, 400, 700 | normal, italic | 
-| Roboto Mono | 100, 200, 300, 400, 500, 600, 700 | normal, italic | 
+| Raleway | 100-900 | normal, italic |
+| Roboto | 100-1000 | |
 | Source Code Pro | 200, 300, 400, 500, 600, 700, 900 | normal, italic |
 | Source Sans Pro | 200, 300, 400, 600, 700, 900 | normal, italic |
 | Source Serif Pro | 200, 300, 400, 600, 700, 900 | normal, italic |
@@ -45,6 +44,10 @@ Depending on the font different styles and weights are defined in the font-face 
 | Work Sans | 100, 200, 300, 400, 500, 600, 700, 800, 900 | normal, italic |
 
 See the list of all [[%SYSTEMWEB%.MaterialIcons][Material Icons]] and [[%SYSTEMWEB%.TablerIcons][Tabler Icons]] 
+
+<div class="foswikiWarningMessage">
+WARNNING: As for now use of TablerIcons is disabled by default as there are unresolved problems on MS Windows loading large webfonts.
+</div>
 
 ---++ Installation Instructions
 %$INSTALL_INSTRUCTIONS%
@@ -57,6 +60,7 @@ Note that copyrights apply to each font individually.
 ---++ Change History
 
 %TABLE{columnwidths="7em" tablewidth="100%"}%
+|  14 Jun 2024 | added raleway font |
 |  01 May 2024 | added tabler icons |
 |  26 Jan 2024 | added roboto-flex font |
 |  05 May 2022 | new major release |
@@ -79,7 +83,7 @@ Note that copyrights apply to each font individually.
 %META:FIELD{name="Release" title="Release" value="%25$RELEASE%25"}%
 %META:FIELD{name="Description" title="Description" value="%25$SHORTDESCRIPTION%25"}%
 %META:FIELD{name="Repository" title="Repository" value="https://github.com/foswiki/%25$ROOTMODULE%25"}%
-%META:FIELD{name="Copyright" title="Copyright" value="2015-2024 Michael Daum"}%
+%META:FIELD{name="Copyright" title="Copyright" value="2015-2025 Michael Daum"}%
 %META:FIELD{name="License" title="License" value="GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]])"}%
 %META:FIELD{name="Home" title="Home" value="https://foswiki.org/Extensions/%25$ROOTMODULE%25"}%
 %META:FIELD{name="Support" title="Support" value="https://foswiki.org/Support/%25$ROOTMODULE%25"}%

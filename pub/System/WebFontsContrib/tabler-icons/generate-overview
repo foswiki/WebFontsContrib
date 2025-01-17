@@ -29,4 +29,4 @@ print "<div class='overview clearfix'>\n";
 foreach my $desc (@{$json->{icons}}) {
   print "<a class='entry'><i class='ti ti-$desc->{id}'></i> $desc->{id}</a>\n";
 }
-print "</div>\n\n$numIcons icons found\n";
+print "<span class='iconCount'>5360</span> icon(s) found\n";

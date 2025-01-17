@@ -1,4 +1,4 @@
-%META:TOPICINFO{author="ProjectContributor" comment="reprev" date="1714574584" format="1.1" version="1"}%
+%META:TOPICINFO{author="ProjectContributor" comment="" date="1737132673" format="1.1"  version="1"}%
 %META:TOPICPARENT{name="WebFontsContrib"}%
 ---+!! %TOPIC%
 
@@ -43,12 +43,14 @@ css and font files:
 
 where =ti-alert-circle= is the name of an icon. See the full list of all icons below.
 
+%STARTSECTION{"icons"}%
 ---++ Icons
 %ADDTOZONE{"head" id="TABLER::CSS" text="<link rel='stylesheet' href='%PUBURLPATH%/%SYSTEMWEB%/WebFontsContrib/tabler-icons/font-face.css' media='all'>"}%
 %ADDTOZONE{"head" id="TABLER::CSS::TEST" text="<link rel='stylesheet' href='%PUBURLPATH%/%WEB%/MaterialIcons/style.css' media='all'>"}%
 %ADDTOZONE{"script" id="TABLER::JS::TEST" text="<script src='%PUBURLPATH%/%WEB%/MaterialIcons/script.js'></script>"}%
 
 <b>Search</b>: <input type="search" incremental="true" size="30" class="filterIcons" />
+
 
 <div class='overview clearfix'>
 <a class='entry'><i class='ti ti-a-b'></i> a-b</a>
@@ -100,6 +102,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-aerial-lift'></i> aerial-lift</a>
 <a class='entry'><i class='ti ti-affiliate'></i> affiliate</a>
 <a class='entry'><i class='ti ti-affiliate-filled'></i> affiliate-filled</a>
+<a class='entry'><i class='ti ti-ai'></i> ai</a>
 <a class='entry'><i class='ti ti-air-balloon'></i> air-balloon</a>
 <a class='entry'><i class='ti ti-air-conditioning'></i> air-conditioning</a>
 <a class='entry'><i class='ti ti-air-conditioning-disabled'></i> air-conditioning-disabled</a>
@@ -170,7 +173,9 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-align-center'></i> align-center</a>
 <a class='entry'><i class='ti ti-align-justified'></i> align-justified</a>
 <a class='entry'><i class='ti ti-align-left'></i> align-left</a>
+<a class='entry'><i class='ti ti-align-left-2'></i> align-left-2</a>
 <a class='entry'><i class='ti ti-align-right'></i> align-right</a>
+<a class='entry'><i class='ti ti-align-right-2'></i> align-right-2</a>
 <a class='entry'><i class='ti ti-alpha'></i> alpha</a>
 <a class='entry'><i class='ti ti-alphabet-cyrillic'></i> alphabet-cyrillic</a>
 <a class='entry'><i class='ti ti-alphabet-greek'></i> alphabet-greek</a>
@@ -430,6 +435,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-augmented-reality-off'></i> augmented-reality-off</a>
 <a class='entry'><i class='ti ti-auth-2fa'></i> auth-2fa</a>
 <a class='entry'><i class='ti ti-automatic-gearbox'></i> automatic-gearbox</a>
+<a class='entry'><i class='ti ti-automation'></i> automation</a>
 <a class='entry'><i class='ti ti-avocado'></i> avocado</a>
 <a class='entry'><i class='ti ti-award'></i> award</a>
 <a class='entry'><i class='ti ti-award-filled'></i> award-filled</a>
@@ -604,6 +610,8 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-binary-off'></i> binary-off</a>
 <a class='entry'><i class='ti ti-binary-tree'></i> binary-tree</a>
 <a class='entry'><i class='ti ti-binary-tree-2'></i> binary-tree-2</a>
+<a class='entry'><i class='ti ti-binoculars'></i> binoculars</a>
+<a class='entry'><i class='ti ti-binoculars-filled'></i> binoculars-filled</a>
 <a class='entry'><i class='ti ti-biohazard'></i> biohazard</a>
 <a class='entry'><i class='ti ti-biohazard-filled'></i> biohazard-filled</a>
 <a class='entry'><i class='ti ti-biohazard-off'></i> biohazard-off</a>
@@ -1172,6 +1180,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-building-lighthouse'></i> building-lighthouse</a>
 <a class='entry'><i class='ti ti-building-monument'></i> building-monument</a>
 <a class='entry'><i class='ti ti-building-mosque'></i> building-mosque</a>
+<a class='entry'><i class='ti ti-building-off'></i> building-off</a>
 <a class='entry'><i class='ti ti-building-pavilion'></i> building-pavilion</a>
 <a class='entry'><i class='ti ti-building-skyscraper'></i> building-skyscraper</a>
 <a class='entry'><i class='ti ti-building-stadium'></i> building-stadium</a>
@@ -1313,6 +1322,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-cash-banknote-filled'></i> cash-banknote-filled</a>
 <a class='entry'><i class='ti ti-cash-banknote-off'></i> cash-banknote-off</a>
 <a class='entry'><i class='ti ti-cash-off'></i> cash-off</a>
+<a class='entry'><i class='ti ti-cash-register'></i> cash-register</a>
 <a class='entry'><i class='ti ti-cast'></i> cast</a>
 <a class='entry'><i class='ti ti-cast-off'></i> cast-off</a>
 <a class='entry'><i class='ti ti-cat'></i> cat</a>
@@ -1348,11 +1358,13 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-chart-arrows-vertical'></i> chart-arrows-vertical</a>
 <a class='entry'><i class='ti ti-chart-bar'></i> chart-bar</a>
 <a class='entry'><i class='ti ti-chart-bar-off'></i> chart-bar-off</a>
+<a class='entry'><i class='ti ti-chart-bar-popular'></i> chart-bar-popular</a>
 <a class='entry'><i class='ti ti-chart-bubble'></i> chart-bubble</a>
 <a class='entry'><i class='ti ti-chart-bubble-filled'></i> chart-bubble-filled</a>
 <a class='entry'><i class='ti ti-chart-candle'></i> chart-candle</a>
 <a class='entry'><i class='ti ti-chart-candle-filled'></i> chart-candle-filled</a>
 <a class='entry'><i class='ti ti-chart-circles'></i> chart-circles</a>
+<a class='entry'><i class='ti ti-chart-cohort'></i> chart-cohort</a>
 <a class='entry'><i class='ti ti-chart-donut'></i> chart-donut</a>
 <a class='entry'><i class='ti ti-chart-donut-2'></i> chart-donut-2</a>
 <a class='entry'><i class='ti ti-chart-donut-3'></i> chart-donut-3</a>
@@ -1362,6 +1374,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-chart-dots-2'></i> chart-dots-2</a>
 <a class='entry'><i class='ti ti-chart-dots-3'></i> chart-dots-3</a>
 <a class='entry'><i class='ti ti-chart-dots-filled'></i> chart-dots-filled</a>
+<a class='entry'><i class='ti ti-chart-funnel'></i> chart-funnel</a>
 <a class='entry'><i class='ti ti-chart-grid-dots'></i> chart-grid-dots</a>
 <a class='entry'><i class='ti ti-chart-grid-dots-filled'></i> chart-grid-dots-filled</a>
 <a class='entry'><i class='ti ti-chart-histogram'></i> chart-histogram</a>
@@ -1562,6 +1575,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-circle-percentage-filled'></i> circle-percentage-filled</a>
 <a class='entry'><i class='ti ti-circle-plus'></i> circle-plus</a>
 <a class='entry'><i class='ti ti-circle-plus-2'></i> circle-plus-2</a>
+<a class='entry'><i class='ti ti-circle-plus-filled'></i> circle-plus-filled</a>
 <a class='entry'><i class='ti ti-circle-rectangle'></i> circle-rectangle</a>
 <a class='entry'><i class='ti ti-circle-rectangle-off'></i> circle-rectangle-off</a>
 <a class='entry'><i class='ti ti-circle-square'></i> circle-square</a>
@@ -1593,6 +1607,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-clear-all'></i> clear-all</a>
 <a class='entry'><i class='ti ti-clear-formatting'></i> clear-formatting</a>
 <a class='entry'><i class='ti ti-click'></i> click</a>
+<a class='entry'><i class='ti ti-cliff-jumping'></i> cliff-jumping</a>
 <a class='entry'><i class='ti ti-clipboard'></i> clipboard</a>
 <a class='entry'><i class='ti ti-clipboard-check'></i> clipboard-check</a>
 <a class='entry'><i class='ti ti-clipboard-copy'></i> clipboard-copy</a>
@@ -1763,6 +1778,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-confucius'></i> confucius</a>
 <a class='entry'><i class='ti ti-container'></i> container</a>
 <a class='entry'><i class='ti ti-container-off'></i> container-off</a>
+<a class='entry'><i class='ti ti-contract'></i> contract</a>
 <a class='entry'><i class='ti ti-contrast'></i> contrast</a>
 <a class='entry'><i class='ti ti-contrast-2'></i> contrast-2</a>
 <a class='entry'><i class='ti ti-contrast-2-filled'></i> contrast-2-filled</a>
@@ -2131,6 +2147,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-device-tv'></i> device-tv</a>
 <a class='entry'><i class='ti ti-device-tv-off'></i> device-tv-off</a>
 <a class='entry'><i class='ti ti-device-tv-old'></i> device-tv-old</a>
+<a class='entry'><i class='ti ti-device-unknown'></i> device-unknown</a>
 <a class='entry'><i class='ti ti-device-usb'></i> device-usb</a>
 <a class='entry'><i class='ti ti-device-vision-pro'></i> device-vision-pro</a>
 <a class='entry'><i class='ti ti-device-watch'></i> device-watch</a>
@@ -2393,6 +2410,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-file-dots'></i> file-dots</a>
 <a class='entry'><i class='ti ti-file-download'></i> file-download</a>
 <a class='entry'><i class='ti ti-file-euro'></i> file-euro</a>
+<a class='entry'><i class='ti ti-file-excel'></i> file-excel</a>
 <a class='entry'><i class='ti ti-file-export'></i> file-export</a>
 <a class='entry'><i class='ti ti-file-filled'></i> file-filled</a>
 <a class='entry'><i class='ti ti-file-function'></i> file-function</a>
@@ -2457,6 +2475,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-file-unknown'></i> file-unknown</a>
 <a class='entry'><i class='ti ti-file-upload'></i> file-upload</a>
 <a class='entry'><i class='ti ti-file-vector'></i> file-vector</a>
+<a class='entry'><i class='ti ti-file-word'></i> file-word</a>
 <a class='entry'><i class='ti ti-file-x'></i> file-x</a>
 <a class='entry'><i class='ti ti-file-x-filled'></i> file-x-filled</a>
 <a class='entry'><i class='ti ti-file-zip'></i> file-zip</a>
@@ -3561,6 +3580,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-moneybag'></i> moneybag</a>
 <a class='entry'><i class='ti ti-monkeybar'></i> monkeybar</a>
 <a class='entry'><i class='ti ti-mood-angry'></i> mood-angry</a>
+<a class='entry'><i class='ti ti-mood-angry-filled'></i> mood-angry-filled</a>
 <a class='entry'><i class='ti ti-mood-annoyed'></i> mood-annoyed</a>
 <a class='entry'><i class='ti ti-mood-annoyed-2'></i> mood-annoyed-2</a>
 <a class='entry'><i class='ti ti-mood-boy'></i> mood-boy</a>
@@ -3569,6 +3589,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-mood-confuzed'></i> mood-confuzed</a>
 <a class='entry'><i class='ti ti-mood-confuzed-filled'></i> mood-confuzed-filled</a>
 <a class='entry'><i class='ti ti-mood-crazy-happy'></i> mood-crazy-happy</a>
+<a class='entry'><i class='ti ti-mood-crazy-happy-filled'></i> mood-crazy-happy-filled</a>
 <a class='entry'><i class='ti ti-mood-cry'></i> mood-cry</a>
 <a class='entry'><i class='ti ti-mood-dollar'></i> mood-dollar</a>
 <a class='entry'><i class='ti ti-mood-edit'></i> mood-edit</a>
@@ -3615,6 +3636,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-mood-wink'></i> mood-wink</a>
 <a class='entry'><i class='ti ti-mood-wink-2'></i> mood-wink-2</a>
 <a class='entry'><i class='ti ti-mood-wrrr'></i> mood-wrrr</a>
+<a class='entry'><i class='ti ti-mood-wrrr-filled'></i> mood-wrrr-filled</a>
 <a class='entry'><i class='ti ti-mood-x'></i> mood-x</a>
 <a class='entry'><i class='ti ti-mood-xd'></i> mood-xd</a>
 <a class='entry'><i class='ti ti-moon'></i> moon</a>
@@ -3758,6 +3780,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-numbers'></i> numbers</a>
 <a class='entry'><i class='ti ti-nurse'></i> nurse</a>
 <a class='entry'><i class='ti ti-nut'></i> nut</a>
+<a class='entry'><i class='ti ti-object-scan'></i> object-scan</a>
 <a class='entry'><i class='ti ti-octagon'></i> octagon</a>
 <a class='entry'><i class='ti ti-octagon-filled'></i> octagon-filled</a>
 <a class='entry'><i class='ti ti-octagon-minus'></i> octagon-minus</a>
@@ -3866,6 +3889,21 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-pepper'></i> pepper</a>
 <a class='entry'><i class='ti ti-pepper-off'></i> pepper-off</a>
 <a class='entry'><i class='ti ti-percentage'></i> percentage</a>
+<a class='entry'><i class='ti ti-percentage-0'></i> percentage-0</a>
+<a class='entry'><i class='ti ti-percentage-10'></i> percentage-10</a>
+<a class='entry'><i class='ti ti-percentage-100'></i> percentage-100</a>
+<a class='entry'><i class='ti ti-percentage-20'></i> percentage-20</a>
+<a class='entry'><i class='ti ti-percentage-25'></i> percentage-25</a>
+<a class='entry'><i class='ti ti-percentage-30'></i> percentage-30</a>
+<a class='entry'><i class='ti ti-percentage-33'></i> percentage-33</a>
+<a class='entry'><i class='ti ti-percentage-40'></i> percentage-40</a>
+<a class='entry'><i class='ti ti-percentage-50'></i> percentage-50</a>
+<a class='entry'><i class='ti ti-percentage-60'></i> percentage-60</a>
+<a class='entry'><i class='ti ti-percentage-66'></i> percentage-66</a>
+<a class='entry'><i class='ti ti-percentage-70'></i> percentage-70</a>
+<a class='entry'><i class='ti ti-percentage-75'></i> percentage-75</a>
+<a class='entry'><i class='ti ti-percentage-80'></i> percentage-80</a>
+<a class='entry'><i class='ti ti-percentage-90'></i> percentage-90</a>
 <a class='entry'><i class='ti ti-perfume'></i> perfume</a>
 <a class='entry'><i class='ti ti-perspective'></i> perspective</a>
 <a class='entry'><i class='ti ti-perspective-off'></i> perspective-off</a>
@@ -3919,6 +3957,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-physotherapist'></i> physotherapist</a>
 <a class='entry'><i class='ti ti-piano'></i> piano</a>
 <a class='entry'><i class='ti ti-pick'></i> pick</a>
+<a class='entry'><i class='ti ti-picnic-table'></i> picnic-table</a>
 <a class='entry'><i class='ti ti-picture-in-picture'></i> picture-in-picture</a>
 <a class='entry'><i class='ti ti-picture-in-picture-filled'></i> picture-in-picture-filled</a>
 <a class='entry'><i class='ti ti-picture-in-picture-off'></i> picture-in-picture-off</a>
@@ -3932,6 +3971,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-pilcrow-left'></i> pilcrow-left</a>
 <a class='entry'><i class='ti ti-pilcrow-right'></i> pilcrow-right</a>
 <a class='entry'><i class='ti ti-pill'></i> pill</a>
+<a class='entry'><i class='ti ti-pill-filled'></i> pill-filled</a>
 <a class='entry'><i class='ti ti-pill-off'></i> pill-off</a>
 <a class='entry'><i class='ti ti-pills'></i> pills</a>
 <a class='entry'><i class='ti ti-pin'></i> pin</a>
@@ -4103,6 +4143,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-receipt-bitcoin'></i> receipt-bitcoin</a>
 <a class='entry'><i class='ti ti-receipt-dollar'></i> receipt-dollar</a>
 <a class='entry'><i class='ti ti-receipt-euro'></i> receipt-euro</a>
+<a class='entry'><i class='ti ti-receipt-filled'></i> receipt-filled</a>
 <a class='entry'><i class='ti ti-receipt-off'></i> receipt-off</a>
 <a class='entry'><i class='ti ti-receipt-pound'></i> receipt-pound</a>
 <a class='entry'><i class='ti ti-receipt-refund'></i> receipt-refund</a>
@@ -4189,6 +4230,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-rosette-discount'></i> rosette-discount</a>
 <a class='entry'><i class='ti ti-rosette-discount-check'></i> rosette-discount-check</a>
 <a class='entry'><i class='ti ti-rosette-discount-check-filled'></i> rosette-discount-check-filled</a>
+<a class='entry'><i class='ti ti-rosette-discount-filled'></i> rosette-discount-filled</a>
 <a class='entry'><i class='ti ti-rosette-discount-off'></i> rosette-discount-off</a>
 <a class='entry'><i class='ti ti-rosette-filled'></i> rosette-filled</a>
 <a class='entry'><i class='ti ti-rosette-number-0'></i> rosette-number-0</a>
@@ -4275,6 +4317,8 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-script-plus'></i> script-plus</a>
 <a class='entry'><i class='ti ti-script-x'></i> script-x</a>
 <a class='entry'><i class='ti ti-scuba-diving'></i> scuba-diving</a>
+<a class='entry'><i class='ti ti-scuba-diving-tank'></i> scuba-diving-tank</a>
+<a class='entry'><i class='ti ti-scuba-diving-tank-filled'></i> scuba-diving-tank-filled</a>
 <a class='entry'><i class='ti ti-scuba-mask'></i> scuba-mask</a>
 <a class='entry'><i class='ti ti-scuba-mask-off'></i> scuba-mask-off</a>
 <a class='entry'><i class='ti ti-sdk'></i> sdk</a>
@@ -4786,6 +4830,7 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-status-change'></i> status-change</a>
 <a class='entry'><i class='ti ti-steam'></i> steam</a>
 <a class='entry'><i class='ti ti-steering-wheel'></i> steering-wheel</a>
+<a class='entry'><i class='ti ti-steering-wheel-filled'></i> steering-wheel-filled</a>
 <a class='entry'><i class='ti ti-steering-wheel-off'></i> steering-wheel-off</a>
 <a class='entry'><i class='ti ti-step-into'></i> step-into</a>
 <a class='entry'><i class='ti ti-step-out'></i> step-out</a>
@@ -4849,9 +4894,11 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-table-share'></i> table-share</a>
 <a class='entry'><i class='ti ti-table-shortcut'></i> table-shortcut</a>
 <a class='entry'><i class='ti ti-tag'></i> tag</a>
+<a class='entry'><i class='ti ti-tag-filled'></i> tag-filled</a>
 <a class='entry'><i class='ti ti-tag-off'></i> tag-off</a>
 <a class='entry'><i class='ti ti-tag-starred'></i> tag-starred</a>
 <a class='entry'><i class='ti ti-tags'></i> tags</a>
+<a class='entry'><i class='ti ti-tags-filled'></i> tags-filled</a>
 <a class='entry'><i class='ti ti-tags-off'></i> tags-off</a>
 <a class='entry'><i class='ti ti-tallymark-1'></i> tallymark-1</a>
 <a class='entry'><i class='ti ti-tallymark-2'></i> tallymark-2</a>
@@ -4862,6 +4909,9 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-target'></i> target</a>
 <a class='entry'><i class='ti ti-target-arrow'></i> target-arrow</a>
 <a class='entry'><i class='ti ti-target-off'></i> target-off</a>
+<a class='entry'><i class='ti ti-tax'></i> tax</a>
+<a class='entry'><i class='ti ti-tax-euro'></i> tax-euro</a>
+<a class='entry'><i class='ti ti-tax-pound'></i> tax-pound</a>
 <a class='entry'><i class='ti ti-teapot'></i> teapot</a>
 <a class='entry'><i class='ti ti-telescope'></i> telescope</a>
 <a class='entry'><i class='ti ti-telescope-off'></i> telescope-off</a>
@@ -4934,6 +4984,10 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-timeline-event-plus'></i> timeline-event-plus</a>
 <a class='entry'><i class='ti ti-timeline-event-text'></i> timeline-event-text</a>
 <a class='entry'><i class='ti ti-timeline-event-x'></i> timeline-event-x</a>
+<a class='entry'><i class='ti ti-timezone'></i> timezone</a>
+<a class='entry'><i class='ti ti-tip-jar'></i> tip-jar</a>
+<a class='entry'><i class='ti ti-tip-jar-euro'></i> tip-jar-euro</a>
+<a class='entry'><i class='ti ti-tip-jar-pound'></i> tip-jar-pound</a>
 <a class='entry'><i class='ti ti-tir'></i> tir</a>
 <a class='entry'><i class='ti ti-toggle-left'></i> toggle-left</a>
 <a class='entry'><i class='ti ti-toggle-left-filled'></i> toggle-left-filled</a>
@@ -5128,6 +5182,8 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-viewfinder'></i> viewfinder</a>
 <a class='entry'><i class='ti ti-viewfinder-off'></i> viewfinder-off</a>
 <a class='entry'><i class='ti ti-viewport-narrow'></i> viewport-narrow</a>
+<a class='entry'><i class='ti ti-viewport-short'></i> viewport-short</a>
+<a class='entry'><i class='ti ti-viewport-tall'></i> viewport-tall</a>
 <a class='entry'><i class='ti ti-viewport-wide'></i> viewport-wide</a>
 <a class='entry'><i class='ti ti-vinyl'></i> vinyl</a>
 <a class='entry'><i class='ti ti-vip'></i> vip</a>
@@ -5359,7 +5415,9 @@ where =ti-alert-circle= is the name of an icon. See the full list of all icons b
 <a class='entry'><i class='ti ti-message-circle-2-filled'></i> message-circle-2-filled</a>
 </div>
 
-<span class="iconCount">5306</span> icon(s) found
+<span class="iconCount">5360</span> icon(s) found
+
+%ENDSECTION{"icons"}%
 
 %META:PREFERENCE{name="DISPLAYATTACHMENTS" title="DISPLAYATTACHMENTS" type="Local" value="off"}%
 %META:PREFERENCE{name="NOWYSIWYG" title="NOWYSIWYG" type="Local" value="on"}%
